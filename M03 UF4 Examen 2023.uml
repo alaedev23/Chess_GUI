@@ -1,0 +1,1744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_rWrxUHAiEe66x4TCR_-66Q" name="M03_UF4_Examen_2023">
+    <eAnnotations xmi:id="_tGEEQHAiEe66x4TCR_-66Q" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_tGEEQXAiEe66x4TCR_-66Q" source="codegen">
+        <details xmi:id="_tGEEQnAiEe66x4TCR_-66Q" key="codegenDirectory" value="/M03 UF4 Examen 2023/src"/>
+        <details xmi:id="_vBzYMHAiEe66x4TCR_-66Q" key="AssociatedSourceCode" value="/M03 UF4 Examen 2023/src/joc/Color.java;3340309292/1;/M03 UF4 Examen 2023/src/joc/Main.java;1070816356/1;/M03 UF4 Examen 2023/src/joc/Posicio.java;3888085283/1;/M03 UF4 Examen 2023/src/joc/Tauler.java;989619315/1;/M03 UF4 Examen 2023/src/peces/Alfil.java;2213543590/1;/M03 UF4 Examen 2023/src/peces/AmbPeca.java;3512673079/1;/M03 UF4 Examen 2023/src/peces/Cavall.java;2894126767/1;/M03 UF4 Examen 2023/src/peces/Escac.java;2709423724/1;/M03 UF4 Examen 2023/src/peces/Ordenable.java;4238217934/1;/M03 UF4 Examen 2023/src/peces/Reina.java;4082738272/1;/M03 UF4 Examen 2023/src/peces/Peo.java;1268097516/1;/M03 UF4 Examen 2023/src/peces/Rei.java;1951732199/1;/M03 UF4 Examen 2023/src/peces/Peca.java;3451409887/1;/M03 UF4 Examen 2023/src/peces/SensePeca.java;1841570027/1;/M03 UF4 Examen 2023/src/peces/Torre.java;1738266363/1;"/>
+      </contents>
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_aeuWIHb7Ee6XVaXlNWgZlA" source="preferences">
+        <contents xmi:type="ecore:EAnnotation" xmi:id="_aeu9MHb7Ee6XVaXlNWgZlA" source="com.yattasolutions.codegen.reverse">
+          <details xmi:id="_aeu9MXb7Ee6XVaXlNWgZlA" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerNewFiles" value="true"/>
+          <details xmi:id="_aeu9Mnb7Ee6XVaXlNWgZlA" key="com.yattasolutions.codegen.reverse.roundtrip.RemoveDeletedFiles" value="true"/>
+          <details xmi:id="_aeu9M3b7Ee6XVaXlNWgZlA" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerChangedFiles" value="true"/>
+        </contents>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_tWrTIHAiEe66x4TCR_-66Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_tWr6MHAiEe66x4TCR_-66Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_tWr6MXAiEe66x4TCR_-66Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_tWr6MnAiEe66x4TCR_-66Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_tWr6M3AiEe66x4TCR_-66Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_tWshQHAiEe66x4TCR_-66Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_tWshQXAiEe66x4TCR_-66Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_tWshQnAiEe66x4TCR_-66Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_tWtvYHAiEe66x4TCR_-66Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tW0dEHAiEe66x4TCR_-66Q" name="joc">
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_tYWHEHAiEe66x4TCR_-66Q" name="Color">
+        <ownedLiteral xmi:id="_tYaYgHAiEe66x4TCR_-66Q" name="BLANC"/>
+        <ownedLiteral xmi:id="_tYa_kHAiEe66x4TCR_-66Q" name="NEGRE"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tYa_kXAiEe66x4TCR_-66Q" name="Main">
+        <ownedAttribute xmi:id="_a3L5cHb7Ee6XVaXlNWgZlA" name="torn" visibility="package" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbY0AHAiEe66x4TCR_-66Q" name="main" specification="_tYcNsHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbY0AXAiEe66x4TCR_-66Q" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tbY0AnAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Color torn;
+		
+		// TODO Auto-generated method stub
+		Tauler tauler = new Tauler();
+		tauler.crearPartida();	
+		
+		tauler.imprimirTauler();
+		
+		System.out.println(&quot;&quot;);
+		
+		
+		
+		
+		String line = &quot;&quot;;
+		String[] valors;
+		Posicio posicioIniSeleccionada;
+		Posicio posicioFiSeleccionada;
+		
+		do {
+			torn = Color.BLANC;
+			
+			System.out.println(&quot;&quot;);
+			System.out.println(&quot;Juguen BLANQUES&quot;);
+			
+			BufferedReader buffer=new BufferedReader(new InputStreamReader(System.in));
+			
+			do {
+				System.out.println(&quot;Selecciona peça a moure (H,V):&quot;);
+				try {
+					line=buffer.readLine();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				valors = line.split(&quot;,&quot;);
+				posicioIniSeleccionada = new Posicio(Integer.parseInt(valors[0]), Integer.parseInt(valors[1]));
+				
+				if (tauler.getPeca(posicioIniSeleccionada) == null) {
+					System.out.println(&quot;No hi ha peça en aquest escac del taulell&quot;);
+					posicioIniSeleccionada = null;
+				} else {
+					if (tauler.getPeca(posicioIniSeleccionada).getEquip() != torn) {
+						System.out.println(&quot;No és el teu torn.... juguen BLANQUES&quot;);
+						posicioIniSeleccionada = null;
+					} else {
+						if (!tauler.getPeca(posicioIniSeleccionada).hihaMovimentsPosibles(tauler)) {
+							System.out.println(&quot;Amb aquesta peça no hi ha moviments possibles, escull una altre&quot;);
+							posicioIniSeleccionada = null;
+						} else {
+							System.out.println(&quot;La peça que vols moure és: &quot; + tauler.getPeca(posicioIniSeleccionada).toString());
+					
+						}
+					}
+				}		
+			} while (posicioIniSeleccionada == null);
+			
+			
+			do {
+				System.out.println(&quot;A quina posició vols moure-la (H,V):&quot;);
+				try {
+					line=buffer.readLine();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				valors = line.split(&quot;,&quot;);
+				posicioFiSeleccionada = new Posicio(Integer.parseInt(valors[0]), Integer.parseInt(valors[1]));
+			
+				if (!tauler.getPeca(posicioIniSeleccionada).movimentsPosibles(tauler)[posicioFiSeleccionada.getX()][posicioFiSeleccionada.getY()] ) {
+					System.out.println(&quot;posicio incorrecte&quot;);
+					posicioFiSeleccionada = null;
+				} else {
+					System.out.println(&quot;ok&quot;);
+				}
+			} while (posicioFiSeleccionada == null);
+			
+			
+			tauler.mouPeca(posicioIniSeleccionada, posicioFiSeleccionada);
+			
+			tauler.imprimirTauler();
+			
+			/*************************************************************************************/
+			System.out.println(&quot;&quot;);
+			System.out.println(&quot;Juguen NEGRES&quot;);
+			torn = Color.NEGRE;
+			
+			do {
+				System.out.println(&quot;Selecciona peça a moure (H,V):&quot;);
+				try {
+					line=buffer.readLine();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				valors = line.split(&quot;,&quot;);
+				posicioIniSeleccionada = new Posicio(Integer.parseInt(valors[0]), Integer.parseInt(valors[1]));
+				
+				if (tauler.getPeca(posicioIniSeleccionada) == null) {
+					System.out.println(&quot;No hi ha peça en aquest escac del taulell&quot;);
+					posicioIniSeleccionada = null;
+				} else {
+					if (tauler.getPeca(posicioIniSeleccionada).getEquip() != torn) {
+						System.out.println(&quot;No és el teu torn.... juguen NEGRES&quot;);
+						posicioIniSeleccionada = null;
+					} else {
+						if (!tauler.getPeca(posicioIniSeleccionada).hihaMovimentsPosibles(tauler)) {
+							System.out.println(&quot;Amb aquesta peça no hi ha moviments possibles, escull una altre&quot;);
+							posicioIniSeleccionada = null;
+						} else {
+							System.out.println(&quot;La peça que vols moure és: &quot; + tauler.getPeca(posicioIniSeleccionada).toString());
+					
+						}
+					}
+				}	
+			} while (posicioIniSeleccionada == null);
+			
+			
+			do {
+				System.out.println(&quot;A quina posició vols moure-la (H,V):&quot;);
+				try {
+					line=buffer.readLine();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				valors = line.split(&quot;,&quot;);
+				posicioFiSeleccionada = new Posicio(Integer.parseInt(valors[0]), Integer.parseInt(valors[1]));
+			
+				if (!tauler.getPeca(posicioIniSeleccionada).movimentsPosibles(tauler)[posicioFiSeleccionada.getX()][posicioFiSeleccionada.getY()] ) {
+					System.out.println(&quot;posicio incorrecte&quot;);
+					posicioFiSeleccionada = null;
+				} else {
+					System.out.println(&quot;ok&quot;);
+				}
+			} while (posicioFiSeleccionada == null);
+			
+			
+			tauler.mouPeca(posicioIniSeleccionada, posicioFiSeleccionada);
+			
+			tauler.imprimirTauler();
+		
+		} while (true);
+		
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_tYcNsHAiEe66x4TCR_-66Q" name="main" isStatic="true" method="_tbY0AHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tYc0wHAiEe66x4TCR_-66Q" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tYeC4HAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tYep8HAiEe66x4TCR_-66Q" name="Posicio">
+        <ownedAttribute xmi:id="_tbMmwHAiEe66x4TCR_-66Q" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_tbMmwXAiEe66x4TCR_-66Q" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbdsgHAiEe66x4TCR_-66Q" name="Posicio" specification="_tYf4EHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbdsgXAiEe66x4TCR_-66Q" type="_tYep8HAiEe66x4TCR_-66Q" direction="return"/>
+          <language>java</language>
+          <body>this(0,0);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbdsgnAiEe66x4TCR_-66Q" name="Posicio" specification="_tYhtQHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbdsg3AiEe66x4TCR_-66Q" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_tbdshHAiEe66x4TCR_-66Q" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_tbdshXAiEe66x4TCR_-66Q" type="_tYep8HAiEe66x4TCR_-66Q" direction="return"/>
+          <language>java</language>
+          <body>this.x = x;
+		this.y = y;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_tYf4EHAiEe66x4TCR_-66Q" name="Posicio" method="_tbdsgHAiEe66x4TCR_-66Q">
+          <eAnnotations xmi:id="_tYgfIHAiEe66x4TCR_-66Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_tYgfIXAiEe66x4TCR_-66Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_tYgfInAiEe66x4TCR_-66Q" type="_tYep8HAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tYhtQHAiEe66x4TCR_-66Q" name="Posicio" method="_tbdsgnAiEe66x4TCR_-66Q">
+          <eAnnotations xmi:id="_tYiUUHAiEe66x4TCR_-66Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_tYiUUXAiEe66x4TCR_-66Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_tYhtQXAiEe66x4TCR_-66Q" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_tYhtQnAiEe66x4TCR_-66Q" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_tYiUUnAiEe66x4TCR_-66Q" type="_tYep8HAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tYjicHAiEe66x4TCR_-66Q" name="Tauler">
+        <ownedAttribute xmi:id="_tbNN0HAiEe66x4TCR_-66Q" name="escacs" visibility="private" type="_tZCDkHAiEe66x4TCR_-66Q" association="_tbzqwHAiEe66x4TCR_-66Q">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tbN04HAiEe66x4TCR_-66Q" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbeTkHAiEe66x4TCR_-66Q" name="Tauler" specification="_tYkwkHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbeTkXAiEe66x4TCR_-66Q" type="_tYjicHAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.escacs = new Escac[8][8];
+		for (int i = 0; i &lt; 8; i++) {
+			for (int j = 0; j &lt; 8; j++) {
+				this.escacs[i][j] = new SensePeca(
+						(((i+j)%2)==0 ? Color.NEGRE : Color.BLANC )
+						);
+			}
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbeTknAiEe66x4TCR_-66Q" name="crearPartida" specification="_tYlXo3AiEe66x4TCR_-66Q">
+          <language>java</language>
+          <body>this.addPeca(new Torre(Color.BLANC, new Posicio(0,0)), new Posicio(0,0));
+		this.addPeca(new Torre(Color.BLANC, new Posicio(7,0)), new Posicio(7,0));
+		this.addPeca(new Cavall(Color.BLANC, new Posicio(1,0)), new Posicio(1,0));
+		this.addPeca(new Cavall(Color.BLANC, new Posicio(6,0)), new Posicio(6,0));
+		this.addPeca(new Alfil(Color.BLANC, new Posicio(2,0)), new Posicio(2,0));
+		this.addPeca(new Alfil(Color.BLANC, new Posicio(5,0)), new Posicio(5,0));
+		this.addPeca(new Reina(Color.BLANC, new Posicio(3,0)), new Posicio(3,0));
+		this.addPeca(new Rei(Color.BLANC, new Posicio(4,0)), new Posicio(4,0));
+		
+		for (int i=0; i&lt;8; i++) {
+			this.addPeca(new Peo(Color.BLANC, new Posicio(i,1)), new Posicio(i,1));
+		}
+		
+		this.addPeca(new Torre(Color.NEGRE, new Posicio(0,7)), new Posicio(0,7));
+		this.addPeca(new Torre(Color.NEGRE, new Posicio(7,7)), new Posicio(7,7));
+		this.addPeca(new Cavall(Color.NEGRE, new Posicio(1,7)), new Posicio(1,7));
+		this.addPeca(new Cavall(Color.NEGRE, new Posicio(6,7)), new Posicio(6,7));
+		this.addPeca(new Alfil(Color.NEGRE, new Posicio(2,7)), new Posicio(2,7));
+		this.addPeca(new Alfil(Color.NEGRE, new Posicio(5,7)), new Posicio(5,7));
+		this.addPeca(new Reina(Color.NEGRE, new Posicio(3,7)), new Posicio(3,7));
+		this.addPeca(new Rei(Color.NEGRE, new Posicio(4,7)), new Posicio(4,7));
+		
+		for (int i=0; i&lt;8; i++) {
+			this.addPeca(new Peo(Color.NEGRE, new Posicio(i,6)), new Posicio(i,6));
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbe6oHAiEe66x4TCR_-66Q" name="addPeca" specification="_tahRUHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbe6oXAiEe66x4TCR_-66Q" name="e" type="_tZdhYHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbe6onAiEe66x4TCR_-66Q" name="p" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <language>java</language>
+          <body>this.escacs[p.getX()][p.getY()] = new AmbPeca(e, this.escacs[p.getX()][p.getY()].getColor() );
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbe6o3AiEe66x4TCR_-66Q" name="getCaselles" specification="_tYl-sHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbe6pHAiEe66x4TCR_-66Q" type="_tZCDkHAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tbe6pXAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.escacs;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbe6pnAiEe66x4TCR_-66Q" name="imprimirTauler" specification="_tYnz4HAiEe66x4TCR_-66Q">
+          <language>java</language>
+          <body>for (int j = 7; j >= 0; j--) {
+			System.out.print(j + &quot; - &quot;);
+			for (int i = 0; i &lt; 8; i++) {
+				if (this.escacs[i][j] != null) {
+					System.out.print(&quot;|(&quot; + this.escacs[i][j].toString() + &quot;)|&quot;);
+				}
+				
+			}
+			System.out.println(&quot;&quot;);
+		}
+		System.out.print(&quot;    &quot;);
+		for (int i = 0; i &lt; 8; i++) {
+			System.out.print(&quot;|  &quot; + i + &quot;  |&quot;);
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_a3Pj0Hb7Ee6XVaXlNWgZlA" name="mouPeca" specification="_a2EfIHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a3Pj0Xb7Ee6XVaXlNWgZlA" name="posInicial" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a3Pj0nb7Ee6XVaXlNWgZlA" name="posFinal" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a3Pj03b7Ee6XVaXlNWgZlA" type="_tZdhYHAiEe66x4TCR_-66Q" direction="return"/>
+          <language>java</language>
+          <body>Peca mort = null;		
+	
+		if (this.escacs[posFinal.getX()][posFinal.getY()] instanceof AmbPeca) {
+			mort = ((AmbPeca)this.escacs[posFinal.getX()][posFinal.getY()]).getPeca();
+		} else {
+			this.escacs[posFinal.getX()][posFinal.getY()] = new AmbPeca(null,this.escacs[posFinal.getX()][posFinal.getY()].getColor());
+		}
+		((AmbPeca)this.escacs[posFinal.getX()][posFinal.getY()]).setPeca(((AmbPeca)this.escacs[posInicial.getX()][posInicial.getY()]).getPeca());
+		((AmbPeca)this.escacs[posFinal.getX()][posFinal.getY()]).getPeca().setPosicio(posFinal);
+		this.escacs[posInicial.getX()][posInicial.getY()] = new SensePeca(this.escacs[posInicial.getX()][posInicial.getY()].getColor());
+		return mort;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_a3QK4Hb7Ee6XVaXlNWgZlA" name="pecesDelMateixEquip" specification="_a2FGMnb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a3QK4Xb7Ee6XVaXlNWgZlA" name="col" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a3QK4nb7Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a3QK43b7Ee6XVaXlNWgZlA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean[][] pecesDelMateixEquip = new boolean[8][8];
+		for (int i = 0; i &lt; 8; i++) {
+			for (int j = 0; j &lt; 8; j++) {
+				if ((this.escacs[i][j] instanceof AmbPeca) &amp;&amp;
+					(((AmbPeca)this.escacs[i][j]).getPeca().isMateixEquip(col)))
+					pecesDelMateixEquip[i][j] = true;
+			}
+		}
+		return pecesDelMateixEquip;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_a3Qx8Hb7Ee6XVaXlNWgZlA" name="pecesEquipContrari" specification="_a2G7YHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a3Qx8Xb7Ee6XVaXlNWgZlA" name="col" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a3Qx8nb7Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a3Qx83b7Ee6XVaXlNWgZlA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean[][] pecesEquipContrari = new boolean[8][8];
+		for (int i = 0; i &lt; 8; i++) {
+			for (int j = 0; j &lt; 8; j++) {
+				if ((this.escacs[i][j] instanceof AmbPeca) &amp;&amp;
+					!(((AmbPeca)this.escacs[i][j]).getPeca().isMateixEquip(col)))
+					pecesEquipContrari[i][j] = true;
+			}
+		}
+		return pecesEquipContrari;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_a3Qx9Hb7Ee6XVaXlNWgZlA" name="getPeca" specification="_a2HicXb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a3Qx9Xb7Ee6XVaXlNWgZlA" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a3Qx9nb7Ee6XVaXlNWgZlA" type="_tZdhYHAiEe66x4TCR_-66Q" direction="return"/>
+          <language>java</language>
+          <body>return (this.escacs[pos.getX()][pos.getY()] instanceof AmbPeca) ? 
+				((AmbPeca)this.escacs[pos.getX()][pos.getY()]).getPeca() :
+				null;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_a3RZAHb7Ee6XVaXlNWgZlA" name="imprimirMateix" specification="_a2IJgXb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a3RZAXb7Ee6XVaXlNWgZlA" name="col" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <language>java</language>
+          <body>boolean[][] peces = this.pecesDelMateixEquip(col);
+		for (int j = 7; j >= 0; j--) {
+			System.out.print(j + &quot; - &quot;);
+			for (int i = 0; i &lt; 8; i++) {
+				if (this.escacs[i][j] != null) {
+					String aux = (peces[i][j])?&quot; * &quot;:&quot; O &quot;;
+					System.out.print(&quot;|(&quot; + aux + &quot;)|&quot;);
+				}
+				
+			}
+			System.out.println(&quot;&quot;);
+		}
+		System.out.print(&quot;    &quot;);
+		for (int i = 0; i &lt; 8; i++) {
+			System.out.print(&quot;|  &quot; + i + &quot;  |&quot;);
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_a3SAEHb7Ee6XVaXlNWgZlA" name="imprimirContrari" specification="_a2IwkHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a3SAEXb7Ee6XVaXlNWgZlA" name="col" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <language>java</language>
+          <body>boolean[][] peces = this.pecesEquipContrari(col);
+		for (int j = 7; j >= 0; j--) {
+			System.out.print(j + &quot; - &quot;);
+			for (int i = 0; i &lt; 8; i++) {
+				if (this.escacs[i][j] != null) {
+					String aux = (peces[i][j])?&quot; * &quot;:&quot; O &quot;;
+					System.out.print(&quot;|(&quot; + aux + &quot;)|&quot;);
+				}
+				
+			}
+			System.out.println(&quot;&quot;);
+		}
+		System.out.print(&quot;    &quot;);
+		for (int i = 0; i &lt; 8; i++) {
+			System.out.print(&quot;|  &quot; + i + &quot;  |&quot;);
+		}
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_tYkwkHAiEe66x4TCR_-66Q" name="Tauler" method="_tbeTkHAiEe66x4TCR_-66Q">
+          <eAnnotations xmi:id="_tYlXoHAiEe66x4TCR_-66Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_tYlXoXAiEe66x4TCR_-66Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_tYlXonAiEe66x4TCR_-66Q" type="_tYjicHAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tYlXo3AiEe66x4TCR_-66Q" name="crearPartida" method="_tbeTknAiEe66x4TCR_-66Q"/>
+        <ownedOperation xmi:id="_tYl-sHAiEe66x4TCR_-66Q" name="getCaselles" method="_tbe6o3AiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tYmlwHAiEe66x4TCR_-66Q" type="_tZCDkHAiEe66x4TCR_-66Q" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tYmlwXAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tYnz4HAiEe66x4TCR_-66Q" name="imprimirTauler" method="_tbe6pnAiEe66x4TCR_-66Q"/>
+        <ownedOperation xmi:id="_tahRUHAiEe66x4TCR_-66Q" name="addPeca" method="_tbe6oHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tahRUXAiEe66x4TCR_-66Q" name="e" type="_tZdhYHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tahRUnAiEe66x4TCR_-66Q" name="p" type="_tYep8HAiEe66x4TCR_-66Q"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_a2EfIHb7Ee6XVaXlNWgZlA" name="mouPeca" method="_a3Pj0Hb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a2EfIXb7Ee6XVaXlNWgZlA" name="posInicial" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a2FGMHb7Ee6XVaXlNWgZlA" name="posFinal" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a2FGMXb7Ee6XVaXlNWgZlA" type="_tZdhYHAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_a2FGMnb7Ee6XVaXlNWgZlA" name="pecesDelMateixEquip" method="_a3QK4Hb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a2FtQHb7Ee6XVaXlNWgZlA" name="col" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a2FtQXb7Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a2FtQnb7Ee6XVaXlNWgZlA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_a2G7YHb7Ee6XVaXlNWgZlA" name="pecesEquipContrari" method="_a3Qx8Hb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a2G7YXb7Ee6XVaXlNWgZlA" name="col" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a2G7Ynb7Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a2G7Y3b7Ee6XVaXlNWgZlA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_a2HicXb7Ee6XVaXlNWgZlA" name="getPeca" method="_a3Qx9Hb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a2Hicnb7Ee6XVaXlNWgZlA" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a2IJgHb7Ee6XVaXlNWgZlA" type="_tZdhYHAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_a2IJgXb7Ee6XVaXlNWgZlA" name="imprimirMateix" method="_a3RZAHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a2IJgnb7Ee6XVaXlNWgZlA" name="col" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_a2IwkHb7Ee6XVaXlNWgZlA" name="imprimirContrari" method="_a3SAEHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a2IwkXb7Ee6XVaXlNWgZlA" name="col" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_tbzqwHAiEe66x4TCR_-66Q" name="" memberEnd="_tbzqwXAiEe66x4TCR_-66Q _tbNN0HAiEe66x4TCR_-66Q">
+        <ownedEnd xmi:id="_tbzqwXAiEe66x4TCR_-66Q" name="" type="_tYjicHAiEe66x4TCR_-66Q" association="_tbzqwHAiEe66x4TCR_-66Q"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tW7x0HAiEe66x4TCR_-66Q" name="peces">
+      <packagedElement xmi:type="uml:Class" xmi:id="_tYppEHAiEe66x4TCR_-66Q" name="Alfil">
+        <generalization xmi:id="_tan_AnAiEe66x4TCR_-66Q" general="_tZdhYHAiEe66x4TCR_-66Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbfhsHAiEe66x4TCR_-66Q" name="Alfil" specification="_tajGgHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbfhsXAiEe66x4TCR_-66Q" name="pCol" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbfhsnAiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbfhs3AiEe66x4TCR_-66Q" type="_tYppEHAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super(pCol, 5, pos);		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbgIxHAiEe66x4TCR_-66Q" name="posicionsPosibles" specification="_tYq3MHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbgIxXAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tbgIxnAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean [][] posicionsPosibles = new boolean [8][8];
+     int x = this.getPosicio().getX();
+     int y = this.getPosicio().getY();
+     for(int i = 0; i &lt; 8; i++){
+         for(int j = 0; j &lt; 8; j++){
+             if (i-x == j-y|| i-x == y-j )
+                 posicionsPosibles[i][j] = true;
+                             
+         }
+     }
+     posicionsPosibles[x][y] = false;
+     return posicionsPosibles;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbgv0HAiEe66x4TCR_-66Q" name="movimentPosible" specification="_tamw4HAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbgv0XAiEe66x4TCR_-66Q" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbgv0nAiEe66x4TCR_-66Q" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbgv03AiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int x1 = getPosicio().getX();
+     int y1 = getPosicio().getY();
+     int x2 = posicioNova.getX();
+     int y2 = posicioNova.getY();
+     
+     if(this.posicionsPosibles()[x2][y2] == false)
+     	return false;
+     else
+     	if (tauler.pecesDelMateixEquip(this.equip)[x2][y2])
+     		return false;
+     else
+        if (this.casellesIntermitjesBuides(tauler, posicioNova) == false)
+            return false;
+     return true;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbgv1HAiEe66x4TCR_-66Q" name="toString" specification="_tYvvsHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbgv1XAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;A&quot;+super.toString();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_a3SnIHb7Ee6XVaXlNWgZlA" name="casellesIntermitjesBuides" specification="_a2Ma8Hb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a3SnIXb7Ee6XVaXlNWgZlA" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a3SnInb7Ee6XVaXlNWgZlA" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a3SnI3b7Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int x1 = getPosicio().getX();
+     int y1 = getPosicio().getY();
+     int x2 = posicioNova.getX();
+     int y2 = posicioNova.getY();
+     int minX = Math.min(x1, x2);
+     int maxX = Math.max(x1, x2);
+     int minY = Math.min(y1,y2);
+     int maxY = Math.max(y1,y2);
+     
+     if(x1 - x2 == y1-y2)
+         for(int i = minX + 1; i&lt; maxX; i++)
+             if(tauler.getCaselles()[i][minY-minX + i] instanceof AmbPeca)
+                 return false;
+            
+     if(x1 - x2 == y2 - y1)
+         for(int i = minX + 1; i&lt; maxX; i++)
+             if(tauler.getCaselles()[i][maxX + minY -i] instanceof AmbPeca)
+                 return false;
+     return true;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_tYq3MHAiEe66x4TCR_-66Q" name="posicionsPosibles" method="_tbgIxHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tYreQHAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tYreQXAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tYvvsHAiEe66x4TCR_-66Q" name="toString" method="_tbgv1HAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tYvvsXAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tajGgHAiEe66x4TCR_-66Q" name="Alfil" method="_tbfhsHAiEe66x4TCR_-66Q">
+          <eAnnotations xmi:id="_tajGg3AiEe66x4TCR_-66Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_tajGhHAiEe66x4TCR_-66Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_tajGgXAiEe66x4TCR_-66Q" name="pCol" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tajGgnAiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tajGhXAiEe66x4TCR_-66Q" type="_tYppEHAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tamw4HAiEe66x4TCR_-66Q" name="movimentPosible" method="_tbgv0HAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tamw4XAiEe66x4TCR_-66Q" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tamw4nAiEe66x4TCR_-66Q" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tamw43AiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_a2Ma8Hb7Ee6XVaXlNWgZlA" name="casellesIntermitjesBuides" visibility="private" method="_a3SnIHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a2Ma8Xb7Ee6XVaXlNWgZlA" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a2NCAHb7Ee6XVaXlNWgZlA" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a2q8EHb7Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tY0BIHAiEe66x4TCR_-66Q" name="AmbPeca">
+        <generalization xmi:id="_taqbQHAiEe66x4TCR_-66Q" general="_tZCDkHAiEe66x4TCR_-66Q"/>
+        <ownedAttribute xmi:id="_tbOb8HAiEe66x4TCR_-66Q" name="peca" type="_tZdhYHAiEe66x4TCR_-66Q" association="_tbs9EHAiEe66x4TCR_-66Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbhW4HAiEe66x4TCR_-66Q" name="AmbPeca" specification="_tapNIHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbhW4XAiEe66x4TCR_-66Q" name="p" type="_tZdhYHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbhW4nAiEe66x4TCR_-66Q" name="c" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbhW43AiEe66x4TCR_-66Q" type="_tY0BIHAiEe66x4TCR_-66Q" direction="return"/>
+          <language>java</language>
+          <body>super(c);
+		this.peca = p;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbhW5HAiEe66x4TCR_-66Q" name="toString" specification="_tY12UHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbhW5XAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return super.toString() + this.peca.toString();
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_tY12UHAiEe66x4TCR_-66Q" name="toString" method="_tbhW5HAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tY12UXAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tapNIHAiEe66x4TCR_-66Q" name="AmbPeca" method="_tbhW4HAiEe66x4TCR_-66Q">
+          <eAnnotations xmi:id="_tapNI3AiEe66x4TCR_-66Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_tap0MHAiEe66x4TCR_-66Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_tapNIXAiEe66x4TCR_-66Q" name="p" type="_tZdhYHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tapNInAiEe66x4TCR_-66Q" name="c" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tap0MXAiEe66x4TCR_-66Q" type="_tY0BIHAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tY5gsHAiEe66x4TCR_-66Q" name="Cavall">
+        <generalization xmi:id="_tav60nAiEe66x4TCR_-66Q" general="_tZdhYHAiEe66x4TCR_-66Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbhW5nAiEe66x4TCR_-66Q" name="Cavall" specification="_tarpYHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbhW53AiEe66x4TCR_-66Q" name="pCol" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbhW6HAiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbhW6XAiEe66x4TCR_-66Q" type="_tY5gsHAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super(pCol, 8, pos);		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbh98HAiEe66x4TCR_-66Q" name="posicionsPosibles" specification="_tY6u0HAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbh98XAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tbh98nAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean [][] posicionsPosibles = new boolean [8][8];
+     int x = this.getPosicio().getX();
+     int y = this.getPosicio().getY();
+     for(int i = 0; i &lt; 8; i++){
+         for(int j = 0; j &lt; 8; j++){
+             if (i == x+2){
+                 if(j == y+1 || j == y-1)
+                     posicionsPosibles[i][j] = true;
+             }   
+             if (i == x+1){
+                 if(j == y+2 || j == y-2)
+                     posicionsPosibles[i][j] = true;
+             }
+             if (i == x-1){
+                 if(j == y+2 || j == y-2)
+                     posicionsPosibles[i][j] = true;
+             }
+             if (i == x-2){
+                 if(j == y+1 || j == y-1)
+                     posicionsPosibles[i][j] = true;
+             }
+         }
+     }
+     posicionsPosibles[x][y] = false;
+     return posicionsPosibles;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbilAHAiEe66x4TCR_-66Q" name="movimentPosible" specification="_tas3gHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbilAXAiEe66x4TCR_-66Q" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbilAnAiEe66x4TCR_-66Q" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbilA3AiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int x1 = getPosicio().getX();
+     int y1 = getPosicio().getY();
+     int x2 = posicioNova.getX();
+     int y2 = posicioNova.getY();
+     
+     if(posicionsPosibles()[x2][y2]== false)
+     	return false;    
+     else
+     	if (tauler.pecesDelMateixEquip(this.equip)[x2][y2])
+     		return false;
+     return true;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbjMEHAiEe66x4TCR_-66Q" name="toString" specification="_tY9yIHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbjMEXAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;C&quot;+super.toString();
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_tY6u0HAiEe66x4TCR_-66Q" name="posicionsPosibles" method="_tbh98HAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tY7V4HAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tY7V4XAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tY9yIHAiEe66x4TCR_-66Q" name="toString" method="_tbjMEHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tY-ZMHAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tarpYHAiEe66x4TCR_-66Q" name="Cavall" method="_tbhW5nAiEe66x4TCR_-66Q">
+          <eAnnotations xmi:id="_tasQcHAiEe66x4TCR_-66Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_tasQcXAiEe66x4TCR_-66Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_tarpYXAiEe66x4TCR_-66Q" name="pCol" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tarpYnAiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tasQcnAiEe66x4TCR_-66Q" type="_tY5gsHAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tas3gHAiEe66x4TCR_-66Q" name="movimentPosible" method="_tbilAHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tas3gXAiEe66x4TCR_-66Q" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tas3gnAiEe66x4TCR_-66Q" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tatekHAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tZCDkHAiEe66x4TCR_-66Q" name="Escac" isAbstract="true">
+        <ownedAttribute xmi:id="_tbPDAHAiEe66x4TCR_-66Q" name="color" visibility="protected" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbjMEnAiEe66x4TCR_-66Q" name="Escac" specification="_tawh4HAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbjME3AiEe66x4TCR_-66Q" name="color" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbjMFHAiEe66x4TCR_-66Q" type="_tZCDkHAiEe66x4TCR_-66Q" direction="return"/>
+          <language>java</language>
+          <body>this.color = color;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbjzIHAiEe66x4TCR_-66Q" name="getColor" specification="_tZD4wHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbjzIXAiEe66x4TCR_-66Q" type="_tYWHEHAiEe66x4TCR_-66Q" direction="return"/>
+          <language>java</language>
+          <body>return this.color;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbjzInAiEe66x4TCR_-66Q" name="toString" specification="_tZEf0HAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbjzI3AiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return ((this.color==Color.BLANC) ? &quot;b&quot; : &quot;n&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_tZD4wHAiEe66x4TCR_-66Q" name="getColor" method="_tbjzIHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_taxwAHAiEe66x4TCR_-66Q" type="_tYWHEHAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tZEf0HAiEe66x4TCR_-66Q" name="toString" method="_tbjzInAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tZFG4HAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tawh4HAiEe66x4TCR_-66Q" name="Escac" method="_tbjMEnAiEe66x4TCR_-66Q">
+          <eAnnotations xmi:id="_taxI8XAiEe66x4TCR_-66Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_taxI8nAiEe66x4TCR_-66Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_taxI8HAiEe66x4TCR_-66Q" name="color" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_taxI83AiEe66x4TCR_-66Q" type="_tZCDkHAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_tZIxQHAiEe66x4TCR_-66Q" name="Ordenable">
+        <ownedOperation xmi:id="_tayXEHAiEe66x4TCR_-66Q" name="compareTo">
+          <ownedParameter xmi:id="_tayXEXAiEe66x4TCR_-66Q" name="e" type="_tZIxQHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tayXEnAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tZKmcHAiEe66x4TCR_-66Q" name="Reina">
+        <generalization xmi:id="_ta3PknAiEe66x4TCR_-66Q" general="_tZdhYHAiEe66x4TCR_-66Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbjzJHAiEe66x4TCR_-66Q" name="Reina" specification="_tay-IHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbjzJXAiEe66x4TCR_-66Q" name="pCol" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbjzJnAiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbjzJ3AiEe66x4TCR_-66Q" type="_tZKmcHAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super(pCol, 15, pos);		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbkaMHAiEe66x4TCR_-66Q" name="posicionsPosibles" specification="_tZMboHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbkaMXAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tbkaMnAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean [][] posicionsPosibles = new boolean [8][8];
+     int x = this.getPosicio().getX();
+     int y = this.getPosicio().getY();
+     for(int i = 0; i &lt; 8; i++){
+         for(int j = 0; j &lt; 8; j++){
+             if (i == x || j == y )
+                 posicionsPosibles[i][j] = true;
+             if (i-x == j-y|| i-x == y-j )
+                 posicionsPosibles[i][j] = true;                
+         }
+     }
+     posicionsPosibles[x][y] = false;
+     return posicionsPosibles;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tblBQHAiEe66x4TCR_-66Q" name="movimentPosible" specification="_ta0MQHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tblBQXAiEe66x4TCR_-66Q" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tblBQnAiEe66x4TCR_-66Q" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tblBQ3AiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int x1 = getPosicio().getX();
+     int y1 = getPosicio().getY();
+     int x2 = posicioNova.getX();
+     int y2 = posicioNova.getY();
+     
+     if(this.posicionsPosibles()[x2][y2]== false)
+     	return false;    
+     else
+     	if (tauler.pecesDelMateixEquip(this.equip)[x2][y2])
+     		return false;
+     	else
+     		if (this.casellesIntermitjesBuides(tauler, posicioNova) == false)
+     			return false;
+     return true;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbloUHAiEe66x4TCR_-66Q" name="toString" specification="_tZOQ0HAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbloUXAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;X&quot;+super.toString();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_a3VqcHb7Ee6XVaXlNWgZlA" name="casellesIntermitjesBuides" specification="_a2c5oHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a3VqcXb7Ee6XVaXlNWgZlA" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a3Vqcnb7Ee6XVaXlNWgZlA" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a3Vqc3b7Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int x1 = getPosicio().getX();
+     int y1 = getPosicio().getY();
+     int x2 = posicioNova.getX();
+     int y2 = posicioNova.getY();
+     int minX = Math.min(x1, x2);
+     int maxX = Math.max(x1, x2);
+     int minY = Math.min(y1,y2);
+     int maxY = Math.max(y1,y2);
+     
+     if(x1 == x2)
+         for(int i = minY + 1; i&lt; maxY; i++)
+             if(tauler.getCaselles()[x1][i] instanceof AmbPeca)
+                 return false;
+            
+     if(y1 == y2)
+         for(int i = minX + 1; i&lt; maxX; i++)
+             if(tauler.getCaselles()[i][y1] instanceof AmbPeca)
+                 return false;
+     
+     if(x1 - x2 == y1-y2)
+         for(int i = minX + 1; i&lt; maxX; i++)
+             if(tauler.getCaselles()[i][minY-minX + i] instanceof AmbPeca)
+                 return false;
+            
+     if(x1 - x2 == y2 - y1)
+         for(int i = minX + 1; i&lt; maxX; i++)
+             if(tauler.getCaselles()[i][maxX + minY -i] instanceof AmbPeca)
+                 return false;
+             
+     return true;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_tZMboHAiEe66x4TCR_-66Q" name="posicionsPosibles" method="_tbkaMHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tZMboXAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tZMbonAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tZOQ0HAiEe66x4TCR_-66Q" name="toString" method="_tbloUHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tZO34HAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tay-IHAiEe66x4TCR_-66Q" name="Reina" method="_tbjzJHAiEe66x4TCR_-66Q">
+          <eAnnotations xmi:id="_tazlMXAiEe66x4TCR_-66Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_tazlMnAiEe66x4TCR_-66Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_tay-IXAiEe66x4TCR_-66Q" name="pCol" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tazlMHAiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tazlM3AiEe66x4TCR_-66Q" type="_tZKmcHAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ta0MQHAiEe66x4TCR_-66Q" name="movimentPosible" method="_tblBQHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_ta0MQXAiEe66x4TCR_-66Q" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_ta0MQnAiEe66x4TCR_-66Q" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_ta0zUHAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_a2c5oHb7Ee6XVaXlNWgZlA" name="casellesIntermitjesBuides" visibility="private" method="_a3VqcHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a2c5oXb7Ee6XVaXlNWgZlA" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a2dgsHb7Ee6XVaXlNWgZlA" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a2t_YHb7Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tZSiQHAiEe66x4TCR_-66Q" name="Peo">
+        <generalization xmi:id="_ta8IEHAiEe66x4TCR_-66Q" general="_tZdhYHAiEe66x4TCR_-66Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbmPYHAiEe66x4TCR_-66Q" name="Peo" specification="_ta32oHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbmPYXAiEe66x4TCR_-66Q" name="pCol" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbmPYnAiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbmPY3AiEe66x4TCR_-66Q" type="_tZSiQHAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super(pCol, 1, pos);		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbmPZHAiEe66x4TCR_-66Q" name="posicionsPosibles" specification="_tZTJUHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbmPZXAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tbmPZnAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean[][] posicionsPosibles = new boolean[8][8];
+     int x = this.getPosicio().getX();
+     int y = this.getPosicio().getY();
+     Color equip = this.getEquip();
+     if (equip == Color.BLANC) {
+         if (0 &lt; y &amp;&amp; y  &lt;= 7) {
+             posicionsPosibles[x][y + 1] = true;
+         }
+     } else {            
+         if (0 &lt;= y  &amp;&amp; y  &lt; 7) {
+             posicionsPosibles[x][y - 1] = true;
+         }
+     }
+
+     posicionsPosibles[x][y] = false;
+     return posicionsPosibles;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbmPZ3AiEe66x4TCR_-66Q" name="movimentPosible" specification="_ta5EwHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbmPaHAiEe66x4TCR_-66Q" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbmPaXAiEe66x4TCR_-66Q" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbmPanAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int x1 = getPosicio().getX();
+     int y1 = getPosicio().getY();
+     int x2 = posicioNova.getX();
+     int y2 = posicioNova.getY();
+     
+     if(this.posicionsPosibles()[x2][y2] &amp;&amp; (tauler.getCaselles()[x2][y2] instanceof SensePeca))
+     	return true;    
+     if (this.posicionsPerMenjar()[x2][y2] &amp;&amp; tauler.pecesEquipContrari(this.equip)[x2][y2])
+     	return true;
+     if (this.equip == Color.BLANC &amp;&amp; y1==1 &amp;&amp; y2 == 3 &amp;&amp; x2 == x1 )
+     	return true;
+     if (this.equip == Color.NEGRE &amp;&amp; y1==6 &amp;&amp; y2 == 4 &amp;&amp; x2 == x1 )
+     	return true;
+
+     return false;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbm2dHAiEe66x4TCR_-66Q" name="toString" specification="_tZVlkHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbm2dXAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;P&quot;+super.toString();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_a3UcUHb7Ee6XVaXlNWgZlA" name="posicionsPerMenjar" specification="_a2XaEHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a3UcUXb7Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a3UcUnb7Ee6XVaXlNWgZlA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean[][] posicionsPerMenjar = new boolean[8][8];
+     int x = this.getPosicio().getX();
+     int y = this.getPosicio().getY();
+     Color equip = this.getEquip();
+     if (equip == Color.NEGRE) {
+         if (0 &lt; y &amp;&amp; y  &lt;= 7) {
+             if (0 &lt;= x &amp;&amp; x &lt; 7) {
+             	posicionsPerMenjar[x + 1][y - 1] = true;
+             }
+             if (0 &lt; x &amp;&amp; x  &lt;= 7) {
+             	posicionsPerMenjar[x - 1][y - 1] = true;
+             }
+         }
+     } else {
+           if (0 &lt;= y  &amp;&amp; y  &lt; 7) {
+             if (0 &lt;= x &amp;&amp; x &lt; 7) {
+             	posicionsPerMenjar[x + 1][y + 1] = true;
+             }
+             if (0 &lt; x &amp;&amp; x  &lt;= 7) {
+             	posicionsPerMenjar[x - 1][y + 1] = true;
+             }
+         }
+     }
+
+     return posicionsPerMenjar;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_tZTJUHAiEe66x4TCR_-66Q" name="posicionsPosibles" method="_tbmPZHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tZTwYHAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tZTwYXAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tZVlkHAiEe66x4TCR_-66Q" name="toString" method="_tbm2dHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tZWMoHAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ta32oHAiEe66x4TCR_-66Q" name="Peo" method="_tbmPYHAiEe66x4TCR_-66Q">
+          <eAnnotations xmi:id="_ta4dsXAiEe66x4TCR_-66Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ta4dsnAiEe66x4TCR_-66Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_ta32oXAiEe66x4TCR_-66Q" name="pCol" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_ta4dsHAiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_ta4ds3AiEe66x4TCR_-66Q" type="_tZSiQHAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ta5EwHAiEe66x4TCR_-66Q" name="movimentPosible" method="_tbmPZ3AiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_ta5EwXAiEe66x4TCR_-66Q" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_ta5EwnAiEe66x4TCR_-66Q" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_ta5Ew3AiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_a2XaEHb7Ee6XVaXlNWgZlA" name="posicionsPerMenjar" method="_a3UcUHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a2XaEXb7Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a2XaEnb7Ee6XVaXlNWgZlA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tZYo4HAiEe66x4TCR_-66Q" name="Rei">
+        <generalization xmi:id="_tbBAkHAiEe66x4TCR_-66Q" general="_tZdhYHAiEe66x4TCR_-66Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbm2dnAiEe66x4TCR_-66Q" name="Rei" specification="_ta8vIHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbm2d3AiEe66x4TCR_-66Q" name="pCol" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbm2eHAiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbm2eXAiEe66x4TCR_-66Q" type="_tZYo4HAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super(pCol, 100, pos);		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbndgHAiEe66x4TCR_-66Q" name="posicionsPosibles" specification="_tZZP8HAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbndgXAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tbndgnAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean [][] posicionsPosibles = new boolean [8][8];
+     int x = this.getPosicio().getX();
+     int y = this.getPosicio().getY();
+     for(int i = 0; i &lt; 8; i++){
+         for(int j = 0; j &lt; 8; j++){
+             if (i == x || i == x+1 || i == x-1){
+                 if(j == y || j == y+1 || j == y-1)
+                     posicionsPosibles[i][j] = true;
+             }                   
+         }
+     }
+     posicionsPosibles[x][y] = false;
+     return posicionsPosibles;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbndg3AiEe66x4TCR_-66Q" name="movimentPosible" specification="_ta9WMXAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbndhHAiEe66x4TCR_-66Q" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbndhXAiEe66x4TCR_-66Q" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbndhnAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int x1 = getPosicio().getX();
+     int y1 = getPosicio().getY();
+     int x2 = posicioNova.getX();
+     int y2 = posicioNova.getY();
+     
+     if(!posicionsPosibles()[x2][y2]){
+     	return false;
+     }
+     if (tauler.pecesDelMateixEquip(this.equip)[x2][y2]){
+     	return false;
+     }
+     return true;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tboElHAiEe66x4TCR_-66Q" name="toString" specification="_tZbFIHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tboElXAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;R&quot;+super.toString();
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_tZZP8HAiEe66x4TCR_-66Q" name="posicionsPosibles" method="_tbndgHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tZZ3AHAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tZZ3AXAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tZbFIHAiEe66x4TCR_-66Q" name="toString" method="_tboElHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tZbFIXAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ta8vIHAiEe66x4TCR_-66Q" name="Rei" method="_tbm2dnAiEe66x4TCR_-66Q">
+          <eAnnotations xmi:id="_ta8vI3AiEe66x4TCR_-66Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ta8vJHAiEe66x4TCR_-66Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_ta8vIXAiEe66x4TCR_-66Q" name="pCol" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_ta8vInAiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_ta9WMHAiEe66x4TCR_-66Q" type="_tZYo4HAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ta9WMXAiEe66x4TCR_-66Q" name="movimentPosible" method="_tbndg3AiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_ta9WMnAiEe66x4TCR_-66Q" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_ta99QHAiEe66x4TCR_-66Q" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_ta99QXAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tZdhYHAiEe66x4TCR_-66Q" name="Peca" isAbstract="true">
+        <ownedAttribute xmi:id="_tbQ4MHAiEe66x4TCR_-66Q" name="equip" visibility="protected" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+        <ownedAttribute xmi:id="_tbRfQXAiEe66x4TCR_-66Q" name="valor" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_tbSGUXAiEe66x4TCR_-66Q" name="posicio" visibility="protected" type="_tYep8HAiEe66x4TCR_-66Q" association="_tb1f8XAiEe66x4TCR_-66Q"/>
+        <interfaceRealization xmi:id="_mBq04Hb7Ee6XVaXlNWgZlA" client="_tZdhYHAiEe66x4TCR_-66Q" supplier="_tZIxQHAiEe66x4TCR_-66Q" contract="_tZIxQHAiEe66x4TCR_-66Q"/>
+        <interfaceRealization xmi:id="_vrYhIXb7Ee6XVaXlNWgZlA" client="_tZdhYHAiEe66x4TCR_-66Q" supplier="_vrX6EHb7Ee6XVaXlNWgZlA" contract="_vrX6EHb7Ee6XVaXlNWgZlA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tboElnAiEe66x4TCR_-66Q" name="Peca" specification="_tbBnoHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tboEl3AiEe66x4TCR_-66Q" name="pCol" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tboEmHAiEe66x4TCR_-66Q" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_tboEmXAiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tboEmnAiEe66x4TCR_-66Q" type="_tZdhYHAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.equip = pCol;
+		this.valor = valor;
+		this.posicio = pos;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tboroHAiEe66x4TCR_-66Q" name="getEquip" specification="_tZgksHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tboroXAiEe66x4TCR_-66Q" type="_tYWHEHAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return equip;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tboronAiEe66x4TCR_-66Q" name="getValor" specification="_tZgksXAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tboro3AiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.valor;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tborpHAiEe66x4TCR_-66Q" name="getPosicio" specification="_tZhLwXAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tborpXAiEe66x4TCR_-66Q" type="_tYep8HAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.posicio;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tborpnAiEe66x4TCR_-66Q" name="setPosicio" specification="_tbED4nAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbpSsHAiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <language>java</language>
+          <body>this.posicio = pos;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbpStHAiEe66x4TCR_-66Q" name="toString" specification="_tZhy0HAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbpStXAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return ((this.equip==Color.BLANC) ? &quot;b&quot; : &quot;n&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_a3TOMHb7Ee6XVaXlNWgZlA" name="movimentsPosibles" specification="_tbDc0HAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_a3TOMXb7Ee6XVaXlNWgZlA" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a3TOMnb7Ee6XVaXlNWgZlA" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a3TOM3b7Ee6XVaXlNWgZlA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean [][] movimientsPosibles = new boolean [8][8];
+	       
+     for(int i = 0; i &lt; 8; i++){
+         for(int j = 0; j &lt; 8; j++){
+             if (movimentPosible(tauler, new Posicio(i,j)))
+                 movimientsPosibles[i][j] = true;                
+         }
+     } 
+     
+     for (int j = 7; j>=0; j--) {
+         for (int i = 0; i&lt;8; i++) {
+             if(movimientsPosibles[i][j]){
+                 System.out.print(&quot;|(&quot;+i+&quot;,&quot;+j+&quot;)|&quot;);
+                 continue;
+             }
+             System.out.print(&quot;| |&quot;);
+         }
+         System.out.println(&quot;&quot;);
+     }
+
+     return movimientsPosibles;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_a3T1QHb7Ee6XVaXlNWgZlA" name="hihaMovimentsPosibles" specification="_a2TvsHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a3T1QXb7Ee6XVaXlNWgZlA" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a3T1Qnb7Ee6XVaXlNWgZlA" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean [][] movimentsPosibles = this.movimentsPosibles(tauler);
+		for (int i=0; i&lt;8 ; i++) {
+			for (int j=0; j&lt;8; j++) {
+				if (movimentsPosibles[i][j]) return true;
+			}
+		}
+		return false;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_a3T1Q3b7Ee6XVaXlNWgZlA" name="isMateixEquip" specification="_a2Tvsnb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a3T1RHb7Ee6XVaXlNWgZlA" name="col" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a3T1RXb7Ee6XVaXlNWgZlA" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.equip.equals(col);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sOLlAHb8Ee6XVaXlNWgZlA" name="equals" specification="_sOJIwXb8Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_sOLlAXb8Ee6XVaXlNWgZlA" name="obj" type="_sOIhsHb8Ee6XVaXlNWgZlA"/>
+          <ownedParameter xmi:id="_sOLlAnb8Ee6XVaXlNWgZlA" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Peca other = (Peca) obj;
+		if (valor != other.valor)
+			return false;
+		return true;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sOMMEHb8Ee6XVaXlNWgZlA" name="compareTo" specification="_sOKW4Xb8Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_sOMMEXb8Ee6XVaXlNWgZlA" name="arg0" type="_sOIhsHb8Ee6XVaXlNWgZlA"/>
+          <ownedParameter xmi:id="_sOMMEnb8Ee6XVaXlNWgZlA" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (arg0 == null)
+			throw new NullPointerException(&quot;No es pot comparar amb un null&quot;);
+		if (this.getClass() != arg0.getClass())
+			throw new ClassCastException(&quot;No es poden comparar objectes de difernt tipus&quot;);
+		Peca other = (Peca) arg0;
+		if (this.valor &lt; other.getValor()) 
+			return -1;
+		if (this.valor > other.getValor()) 
+			return 1;
+		return 0;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sOMME3b8Ee6XVaXlNWgZlA" name="compareTo" specification="_sN87gHb8Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_sOMMFHb8Ee6XVaXlNWgZlA" name="arg0" type="_tZIxQHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_sOMMFXb8Ee6XVaXlNWgZlA" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.compareTo(arg0);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_tZfWkHAiEe66x4TCR_-66Q" name="posicionsPosibles" isAbstract="true">
+          <ownedParameter xmi:id="_tZfWkXAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tZfWknAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tZgksHAiEe66x4TCR_-66Q" name="getEquip" method="_tboroHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbED4HAiEe66x4TCR_-66Q" type="_tYWHEHAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tZgksXAiEe66x4TCR_-66Q" name="getValor" method="_tboronAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tZhLwHAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tZhLwXAiEe66x4TCR_-66Q" name="getPosicio" method="_tborpHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbED4XAiEe66x4TCR_-66Q" type="_tYep8HAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tZhy0HAiEe66x4TCR_-66Q" name="toString" method="_tbpStHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tZhy0XAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tbBnoHAiEe66x4TCR_-66Q" name="Peca" method="_tboElnAiEe66x4TCR_-66Q">
+          <eAnnotations xmi:id="_tbCOsnAiEe66x4TCR_-66Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_tbCOs3AiEe66x4TCR_-66Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_tbBnoXAiEe66x4TCR_-66Q" name="pCol" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbCOsHAiEe66x4TCR_-66Q" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_tbCOsXAiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbCOtHAiEe66x4TCR_-66Q" type="_tZdhYHAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tbC1wHAiEe66x4TCR_-66Q" name="movimentPosible" isAbstract="true">
+          <ownedParameter xmi:id="_tbC1wXAiEe66x4TCR_-66Q" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbC1wnAiEe66x4TCR_-66Q" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbC1w3AiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tbDc0HAiEe66x4TCR_-66Q" name="movimentsPosibles" method="_a3TOMHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_tbDc0XAiEe66x4TCR_-66Q" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbDc0nAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tbDc03AiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tbED4nAiEe66x4TCR_-66Q" name="setPosicio" method="_tborpnAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbED43AiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_a2TvsHb7Ee6XVaXlNWgZlA" name="hihaMovimentsPosibles" method="_a3T1QHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a2TvsXb7Ee6XVaXlNWgZlA" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a2sKMHb7Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_a2Tvsnb7Ee6XVaXlNWgZlA" name="isMateixEquip" method="_a3T1Q3b7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a2UWwHb7Ee6XVaXlNWgZlA" name="col" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a2sKMXb7Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sN87gHb8Ee6XVaXlNWgZlA" name="compareTo" method="_sOMME3b8Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_sN87gXb8Ee6XVaXlNWgZlA" name="arg0" type="_tZIxQHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_sOAl4Hb8Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sOJIwXb8Ee6XVaXlNWgZlA" name="equals" method="_sOLlAHb8Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_sOJIwnb8Ee6XVaXlNWgZlA" name="obj" type="_sOIhsHb8Ee6XVaXlNWgZlA"/>
+          <ownedParameter xmi:id="_sOJv0Hb8Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sOKW4Xb8Ee6XVaXlNWgZlA" name="compareTo" method="_sOMMEHb8Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_sOKW4nb8Ee6XVaXlNWgZlA" name="arg0" type="_sOIhsHb8Ee6XVaXlNWgZlA"/>
+          <ownedParameter xmi:id="_sOKW43b8Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tZldMHAiEe66x4TCR_-66Q" name="SensePeca">
+        <generalization xmi:id="_tbF5E3AiEe66x4TCR_-66Q" general="_tZCDkHAiEe66x4TCR_-66Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbp5wHAiEe66x4TCR_-66Q" name="SensePeca" specification="_tbFSAHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbp5wXAiEe66x4TCR_-66Q" name="c" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbp5wnAiEe66x4TCR_-66Q" type="_tZldMHAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super(c);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbp5w3AiEe66x4TCR_-66Q" name="toString" specification="_tZmrUHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbp5xHAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return super.toString() + &quot;  &quot;;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_tZmrUHAiEe66x4TCR_-66Q" name="toString" method="_tbp5w3AiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tZmrUXAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tbFSAHAiEe66x4TCR_-66Q" name="SensePeca" method="_tbp5wHAiEe66x4TCR_-66Q">
+          <eAnnotations xmi:id="_tbF5EHAiEe66x4TCR_-66Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_tbF5EXAiEe66x4TCR_-66Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_tbFSAXAiEe66x4TCR_-66Q" name="c" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbF5EnAiEe66x4TCR_-66Q" type="_tZldMHAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tZn5cHAiEe66x4TCR_-66Q" name="Torre">
+        <generalization xmi:id="_tbKKgnAiEe66x4TCR_-66Q" general="_tZdhYHAiEe66x4TCR_-66Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbp5xXAiEe66x4TCR_-66Q" name="Torre" specification="_tbGgIHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbp5xnAiEe66x4TCR_-66Q" name="pCol" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbp5x3AiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbp5yHAiEe66x4TCR_-66Q" type="_tZn5cHAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super(pCol, 10, pos);		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbqg0HAiEe66x4TCR_-66Q" name="posicionsPosibles" specification="_tZpHkHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbqg0XAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tbqg0nAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>boolean [][] posicionsPosibles = new boolean [8][8];
+     int x = this.getPosicio().getX();
+     int y = this.getPosicio().getY();
+     for(int i = 0; i &lt; 8; i++){
+         for(int j = 0; j &lt; 8; j++){
+             if (i == x || j == y )
+                 posicionsPosibles[i][j] = true;
+                             
+         }
+     }
+     posicionsPosibles[x][y] = false;
+     return posicionsPosibles;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbqg03AiEe66x4TCR_-66Q" name="movimentPosible" specification="_tbHHM3AiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbqg1HAiEe66x4TCR_-66Q" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbqg1XAiEe66x4TCR_-66Q" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbqg1nAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int x1 = getPosicio().getX();
+     int y1 = getPosicio().getY();
+     int x2 = posicioNova.getX();
+     int y2 = posicioNova.getY();
+      
+     if(this.posicionsPosibles()[x2][y2]== false)
+     	return false;    
+     else
+     	if (tauler.pecesDelMateixEquip(this.equip)[x2][y2])
+     		return false;
+     	else
+     		if (this.casellesIntermitjesBuides(tauler, posicioNova) == false)
+     			return false;
+     return true;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tbrH4HAiEe66x4TCR_-66Q" name="toString" specification="_tZq8wHAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbrH4XAiEe66x4TCR_-66Q" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;T&quot;+super.toString();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_a3WRgHb7Ee6XVaXlNWgZlA" name="casellesIntermitjesBuides" specification="_a2hLEHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a3WRgXb7Ee6XVaXlNWgZlA" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a3WRgnb7Ee6XVaXlNWgZlA" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a3WRg3b7Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int x1 = getPosicio().getX();
+     int y1 = getPosicio().getY();
+     int x2 = posicioNova.getX();
+     int y2 = posicioNova.getY();
+     int minX = Math.min(x1, x2);
+     int maxX = Math.max(x1, x2);
+     int minY = Math.min(y1,y2);
+     int maxY = Math.max(y1,y2);
+     
+     if(x1 == x2)
+         for(int i = minY + 1; i&lt; maxY; i++)
+             if(tauler.getCaselles()[x1][i] instanceof AmbPeca)
+                 return false;
+            
+     if(y1 == y2)
+         for(int i = minX + 1; i&lt; maxX; i++)
+             if(tauler.getCaselles()[i][y1] instanceof AmbPeca)
+                 return false;                
+     return true;                
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_tZpHkHAiEe66x4TCR_-66Q" name="posicionsPosibles" method="_tbqg0HAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tZpHkXAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tZpHknAiEe66x4TCR_-66Q" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tZq8wHAiEe66x4TCR_-66Q" name="toString" method="_tbrH4HAiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tZq8wXAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tbGgIHAiEe66x4TCR_-66Q" name="Torre" method="_tbp5xXAiEe66x4TCR_-66Q">
+          <eAnnotations xmi:id="_tbHHMHAiEe66x4TCR_-66Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_tbHHMXAiEe66x4TCR_-66Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_tbGgIXAiEe66x4TCR_-66Q" name="pCol" type="_tYWHEHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbGgInAiEe66x4TCR_-66Q" name="pos" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbHHMnAiEe66x4TCR_-66Q" type="_tZn5cHAiEe66x4TCR_-66Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_tbHHM3AiEe66x4TCR_-66Q" name="movimentPosible" method="_tbqg03AiEe66x4TCR_-66Q">
+          <ownedParameter xmi:id="_tbHuQHAiEe66x4TCR_-66Q" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbHuQXAiEe66x4TCR_-66Q" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_tbHuQnAiEe66x4TCR_-66Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_a2hLEHb7Ee6XVaXlNWgZlA" name="casellesIntermitjesBuides" visibility="private" method="_a3WRgHb7Ee6XVaXlNWgZlA">
+          <ownedParameter xmi:id="_a2hyIHb7Ee6XVaXlNWgZlA" name="tauler" type="_tYjicHAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a2hyIXb7Ee6XVaXlNWgZlA" name="posicioNova" type="_tYep8HAiEe66x4TCR_-66Q"/>
+          <ownedParameter xmi:id="_a2umcHb7Ee6XVaXlNWgZlA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_tbs9EHAiEe66x4TCR_-66Q" name="" memberEnd="_tbOb8HAiEe66x4TCR_-66Q _tbs9EXAiEe66x4TCR_-66Q">
+        <ownedEnd xmi:id="_tbs9EXAiEe66x4TCR_-66Q" name="" type="_tY0BIHAiEe66x4TCR_-66Q" association="_tbs9EHAiEe66x4TCR_-66Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_tb1f8XAiEe66x4TCR_-66Q" name="" memberEnd="_tb1f8nAiEe66x4TCR_-66Q _tbSGUXAiEe66x4TCR_-66Q">
+        <ownedEnd xmi:id="_tb1f8nAiEe66x4TCR_-66Q" name="" type="_tZdhYHAiEe66x4TCR_-66Q" association="_tb1f8XAiEe66x4TCR_-66Q"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_a1-YgHb7Ee6XVaXlNWgZlA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_a1-_kHb7Ee6XVaXlNWgZlA" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_a3EksHb7Ee6XVaXlNWgZlA" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_a3Fy0Xb7Ee6XVaXlNWgZlA" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_a3HA8Hb7Ee6XVaXlNWgZlA" name="InputStreamReader"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_a1-_kXb7Ee6XVaXlNWgZlA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_a3IPEXb7Ee6XVaXlNWgZlA" name="Scanner"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_vrXTAHb7Ee6XVaXlNWgZlA" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_vrX6EHb7Ee6XVaXlNWgZlA" name="Comparable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_sOIhsHb8Ee6XVaXlNWgZlA" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_tGGggHAiEe66x4TCR_-66Q">
+      <eAnnotations xmi:id="_tGJj0HAiEe66x4TCR_-66Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_tGNOMHAiEe66x4TCR_-66Q" base_Package="_rWrxUHAiEe66x4TCR_-66Q">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tYZxcHAiEe66x4TCR_-66Q" base_Element="_tYWHEHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Array xmi:id="_tYmlwnAiEe66x4TCR_-66Q" dimensions="2" base_Element="_tYl-sHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Array xmi:id="_tYreQnAiEe66x4TCR_-66Q" dimensions="2" base_Element="_tYq3MHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tYsFUHAiEe66x4TCR_-66Q" base_Element="_tYq3MHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tYuhkHAiEe66x4TCR_-66Q" base_Element="_tYq3MHAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tYuhkXAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tYwWwHAiEe66x4TCR_-66Q" base_Element="_tYvvsHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tYw90HAiEe66x4TCR_-66Q" base_Element="_tYvvsHAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tYw90XAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tY2dYHAiEe66x4TCR_-66Q" base_Element="_tY12UHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tY3EcHAiEe66x4TCR_-66Q" base_Element="_tY12UHAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tY3EcXAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_tY788HAiEe66x4TCR_-66Q" dimensions="2" base_Element="_tY6u0HAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tY8kAHAiEe66x4TCR_-66Q" base_Element="_tY6u0HAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tY8kAXAiEe66x4TCR_-66Q" base_Element="_tY6u0HAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tY9LEHAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tY_AQHAiEe66x4TCR_-66Q" base_Element="_tY9yIHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tY_nUHAiEe66x4TCR_-66Q" base_Element="_tY9yIHAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tY_nUXAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tZFt8HAiEe66x4TCR_-66Q" base_Element="_tZEf0HAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tZGVAHAiEe66x4TCR_-66Q" base_Element="_tZEf0HAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tZGVAXAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_tZNCsHAiEe66x4TCR_-66Q" dimensions="2" base_Element="_tZMboHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tZNpwHAiEe66x4TCR_-66Q" base_Element="_tZMboHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tZNpwXAiEe66x4TCR_-66Q" base_Element="_tZMboHAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tZNpwnAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tZO34XAiEe66x4TCR_-66Q" base_Element="_tZOQ0HAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tZPe8HAiEe66x4TCR_-66Q" base_Element="_tZOQ0HAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tZPe8XAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_tZUXcHAiEe66x4TCR_-66Q" dimensions="2" base_Element="_tZTJUHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tZU-gHAiEe66x4TCR_-66Q" base_Element="_tZTJUHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tZU-gXAiEe66x4TCR_-66Q" base_Element="_tZTJUHAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tZU-gnAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tZWMoXAiEe66x4TCR_-66Q" base_Element="_tZVlkHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tZWzsHAiEe66x4TCR_-66Q" base_Element="_tZVlkHAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tZWzsXAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_tZZ3AnAiEe66x4TCR_-66Q" dimensions="2" base_Element="_tZZP8HAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tZaeEHAiEe66x4TCR_-66Q" base_Element="_tZZP8HAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tZaeEXAiEe66x4TCR_-66Q" base_Element="_tZZP8HAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tZaeEnAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tZbsMHAiEe66x4TCR_-66Q" base_Element="_tZbFIHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tZcTQHAiEe66x4TCR_-66Q" base_Element="_tZbFIHAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tZcTQXAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_tZf9oHAiEe66x4TCR_-66Q" dimensions="2" base_Element="_tZfWkHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tZiZ4HAiEe66x4TCR_-66Q" base_Element="_tZhy0HAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tZiZ4XAiEe66x4TCR_-66Q" base_Element="_tZhy0HAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tZiZ4nAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tZnSYHAiEe66x4TCR_-66Q" base_Element="_tZmrUHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tZnSYXAiEe66x4TCR_-66Q" base_Element="_tZmrUHAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tZnSYnAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_tZpuoHAiEe66x4TCR_-66Q" dimensions="2" base_Element="_tZpHkHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tZpuoXAiEe66x4TCR_-66Q" base_Element="_tZpHkHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tZqVsHAiEe66x4TCR_-66Q" base_Element="_tZpHkHAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tZqVsXAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tZrj0HAiEe66x4TCR_-66Q" base_Element="_tZq8wHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tZrj0XAiEe66x4TCR_-66Q" base_Element="_tZq8wHAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tZrj0nAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tanX8HAiEe66x4TCR_-66Q" base_Element="_tamw4HAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tan_AHAiEe66x4TCR_-66Q" base_Element="_tamw4HAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tan_AXAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tatekXAiEe66x4TCR_-66Q" base_Element="_tas3gHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tauFoHAiEe66x4TCR_-66Q" base_Element="_tas3gHAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tauFoXAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ta0zUXAiEe66x4TCR_-66Q" base_Element="_ta0MQHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_ta1aYHAiEe66x4TCR_-66Q" base_Element="_ta0MQHAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_ta1aYXAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ta5r0HAiEe66x4TCR_-66Q" base_Element="_ta5EwHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_ta6S4HAiEe66x4TCR_-66Q" base_Element="_ta5EwHAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_ta6S4XAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ta99QnAiEe66x4TCR_-66Q" base_Element="_ta9WMXAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_ta-kUHAiEe66x4TCR_-66Q" base_Element="_ta9WMXAiEe66x4TCR_-66Q">
+    <annotations xmi:id="_ta-kUXAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_tbDc1HAiEe66x4TCR_-66Q" dimensions="2" base_Element="_tbDc0HAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tbHuQ3AiEe66x4TCR_-66Q" base_Element="_tbHHM3AiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Annotations xmi:id="_tbIVUHAiEe66x4TCR_-66Q" base_Element="_tbHHM3AiEe66x4TCR_-66Q">
+    <annotations xmi:id="_tbIVUXAiEe66x4TCR_-66Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_tbN04XAiEe66x4TCR_-66Q" dimensions="2" base_Element="_tbNN0HAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tbN04nAiEe66x4TCR_-66Q" base_Element="_tbNN0HAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tbPqEHAiEe66x4TCR_-66Q" base_Element="_tbPDAHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tbRfQHAiEe66x4TCR_-66Q" base_Element="_tbQ4MHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tbSGUHAiEe66x4TCR_-66Q" base_Element="_tbRfQXAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tbStYHAiEe66x4TCR_-66Q" base_Element="_tbSGUXAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Reference xmi:id="_tb1f8HAiEe66x4TCR_-66Q" base_Element="_tbzqwHAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Reference xmi:id="_tb2uEHAiEe66x4TCR_-66Q" base_Element="_tb1f8XAiEe66x4TCR_-66Q"/>
+  <UMLLabProfile:Patch xmi:id="_vByKEHAiEe66x4TCR_-66Q" base_Element="_tYWHEHAiEe66x4TCR_-66Q" patchText="@@ -28,10 +28,8 @@&#xA; olor&#xA;-()&#xA;  %7B%0A%09&#xA;" conflicting="false"/>
+  <UMLLabProfile:Array xmi:id="_a2GUUHb7Ee6XVaXlNWgZlA" dimensions="2" base_Element="_a2FGMnb7Ee6XVaXlNWgZlA"/>
+  <UMLLabProfile:Array xmi:id="_a2HicHb7Ee6XVaXlNWgZlA" dimensions="2" base_Element="_a2G7YHb7Ee6XVaXlNWgZlA"/>
+  <UMLLabProfile:Array xmi:id="_a2XaE3b7Ee6XVaXlNWgZlA" dimensions="2" base_Element="_a2XaEHb7Ee6XVaXlNWgZlA"/>
+  <UMLLabProfile:Reference xmi:id="_a3Fy0Hb7Ee6XVaXlNWgZlA" base_Element="_a3EksHb7Ee6XVaXlNWgZlA"/>
+  <UMLLabProfile:Reference xmi:id="_a3GZ4Hb7Ee6XVaXlNWgZlA" base_Element="_a3Fy0Xb7Ee6XVaXlNWgZlA"/>
+  <UMLLabProfile:Reference xmi:id="_a3IPEHb7Ee6XVaXlNWgZlA" base_Element="_a3HA8Hb7Ee6XVaXlNWgZlA"/>
+  <UMLLabProfile:Reference xmi:id="_a3JdMHb7Ee6XVaXlNWgZlA" base_Element="_a3IPEXb7Ee6XVaXlNWgZlA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_a3NHkHb7Ee6XVaXlNWgZlA" base_Element="_a3L5cHb7Ee6XVaXlNWgZlA"/>
+  <UMLLabProfile:Reference xmi:id="_vrYhIHb7Ee6XVaXlNWgZlA" base_Element="_vrX6EHb7Ee6XVaXlNWgZlA"/>
+  <UMLLabProfile:Annotations xmi:id="_sN9ikHb8Ee6XVaXlNWgZlA" base_Element="_sN87gHb8Ee6XVaXlNWgZlA">
+    <annotations xmi:id="_sN9ikXb8Ee6XVaXlNWgZlA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sN_XwHb8Ee6XVaXlNWgZlA" base_Element="_sN87gHb8Ee6XVaXlNWgZlA"/>
+  <UMLLabProfile:Reference xmi:id="_sOJIwHb8Ee6XVaXlNWgZlA" base_Element="_sOIhsHb8Ee6XVaXlNWgZlA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sOJv0Xb8Ee6XVaXlNWgZlA" base_Element="_sOJIwXb8Ee6XVaXlNWgZlA"/>
+  <UMLLabProfile:Annotations xmi:id="_sOJv0nb8Ee6XVaXlNWgZlA" base_Element="_sOJIwXb8Ee6XVaXlNWgZlA">
+    <annotations xmi:id="_sOKW4Hb8Ee6XVaXlNWgZlA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sOK98Hb8Ee6XVaXlNWgZlA" base_Element="_sOKW4Xb8Ee6XVaXlNWgZlA"/>
+  <UMLLabProfile:Annotations xmi:id="_sOK98Xb8Ee6XVaXlNWgZlA" base_Element="_sOKW4Xb8Ee6XVaXlNWgZlA">
+    <annotations xmi:id="_sOK98nb8Ee6XVaXlNWgZlA" name="Override"/>
+  </UMLLabProfile:Annotations>
+</xmi:XMI>

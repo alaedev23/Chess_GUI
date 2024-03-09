@@ -1,0 +1,1552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_s8bAEHAiEe66x4TCR_-66Q">
+  <modelElement href="M03%20UF4%20Examen%202023.uml#_rWrxUHAiEe66x4TCR_-66Q"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_vy0lcHAiEe66x4TCR_-66Q" sourceAnchor="421.0,45.0" targetAnchor="0.0,61.0" target="_vz3uUHAiEe66x4TCR_-66Q" source="_vy1MgHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tbzqwHAiEe66x4TCR_-66Q"/>
+    <stereotypes xmi:id="_vy0lcXAiEe66x4TCR_-66Q" name="Reference">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tb1f8HAiEe66x4TCR_-66Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_vy0lcnAiEe66x4TCR_-66Q" text="">
+      <visualProperties xmi:id="_wGE4oHAiEe66x4TCR_-66Q" position="-42.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_vy0lc3AiEe66x4TCR_-66Q" aggregationKind="NONE" name="">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbzqwXAiEe66x4TCR_-66Q"/>
+      <visualProperties xmi:id="_wGERlHAiEe66x4TCR_-66Q" position="23.0,2.0"/>
+      <visibility xmi:id="_vy0ldHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vy0ldXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_vy0ldnAiEe66x4TCR_-66Q" aggregationKind="NONE" name="escacs" navigable="true">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbNN0HAiEe66x4TCR_-66Q"/>
+      <visualProperties xmi:id="_wGFfsHAiEe66x4TCR_-66Q" position="-110.0,-51.0"/>
+      <stereotypes xmi:id="_Yj0IoHb7Ee6XVaXlNWgZlA" name="Array">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbN04XAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Yj0IoXb7Ee6XVaXlNWgZlA" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbN04nAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_vy0ld3AiEe66x4TCR_-66Q" label="-"/>
+      <cardinality xmi:id="_vy0leHAiEe66x4TCR_-66Q" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vy_kkHAiEe66x4TCR_-66Q" sourceAnchor="271.0,0.0" targetAnchor="245.0,365.0" superClass="_v1k-gHAiEe66x4TCR_-66Q" subClass="_vzNnAHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tan_AnAiEe66x4TCR_-66Q"/>
+    <bendpoints xmi:id="_IWJVQnb9Ee6XVaXlNWgZlA" sourceY="-34" targetX="-550" targetY="110"/>
+    <bendpoints xmi:id="_IWJVQ3b9Ee6XVaXlNWgZlA" sourceX="550" sourceY="-41" targetY="103"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_vzCn4HAiEe66x4TCR_-66Q" sourceAnchor="0.0,141.0" targetAnchor="264.0,61.0" target="_vyhDcHAiEe66x4TCR_-66Q" source="_v1k-gHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tb1f8XAiEe66x4TCR_-66Q"/>
+    <stereotypes xmi:id="_vzIug3AiEe66x4TCR_-66Q" name="Reference">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tb2uEHAiEe66x4TCR_-66Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_vzIugHAiEe66x4TCR_-66Q" text="">
+      <visualProperties xmi:id="_wGGGwXAiEe66x4TCR_-66Q" position="9.0,-10.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_vzIugXAiEe66x4TCR_-66Q" aggregationKind="NONE" name="">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tb1f8nAiEe66x4TCR_-66Q"/>
+      <visualProperties xmi:id="_wGGGwHAiEe66x4TCR_-66Q" position="-19.0,1.0"/>
+      <visibility xmi:id="_vzLx0XAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vzLx0HAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_vzIugnAiEe66x4TCR_-66Q" aggregationKind="NONE" name="posicio" navigable="true">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbSGUXAiEe66x4TCR_-66Q"/>
+      <visualProperties xmi:id="_wGGGwnAiEe66x4TCR_-66Q" position="5.0,-51.000000000000114"/>
+      <stereotypes xmi:id="_Yj190Hb7Ee6XVaXlNWgZlA" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbStYHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_vzLx03AiEe66x4TCR_-66Q" label="#"/>
+      <cardinality xmi:id="_vzLx0nAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_vzdeoHAiEe66x4TCR_-66Q" sourceAnchor="245.0,0.0" targetAnchor="162.0,77.0" target="_vzhwEHAiEe66x4TCR_-66Q" source="_v1k-gHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tbs9EHAiEe66x4TCR_-66Q"/>
+    <nameVisual xmi:id="_vzeFsHAiEe66x4TCR_-66Q" text="">
+      <visualProperties xmi:id="_wGHU4HAiEe66x4TCR_-66Q" position="2.0,-25.375"/>
+    </nameVisual>
+    <sourceRole xmi:id="_vzeswHAiEe66x4TCR_-66Q" aggregationKind="NONE" name="peca" navigable="true">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbOb8HAiEe66x4TCR_-66Q"/>
+      <visualProperties xmi:id="_wGGt0HAiEe66x4TCR_-66Q" position="2.0,-74.25"/>
+      <visibility xmi:id="_vzfT0XAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vzfT0HAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_vzeswXAiEe66x4TCR_-66Q" aggregationKind="NONE" name="">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbs9EXAiEe66x4TCR_-66Q"/>
+      <visualProperties xmi:id="_wGHU4XAiEe66x4TCR_-66Q" position="-16.0,25.25"/>
+      <visibility xmi:id="_vzf64XAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vzf64HAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vzeswnAiEe66x4TCR_-66Q" sourceAnchor="158.0,0.0" targetAnchor="120.0,124.0" superClass="_vz3uUHAiEe66x4TCR_-66Q" subClass="_vzhwEHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_taqbQHAiEe66x4TCR_-66Q"/>
+    <bendpoints xmi:id="_IWJ8Unb9Ee6XVaXlNWgZlA" sourceY="-39" targetX="-30" targetY="52"/>
+    <bendpoints xmi:id="_IWJ8U3b9Ee6XVaXlNWgZlA" sourceX="30" sourceY="-39" targetY="52"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_vzqS8HAiEe66x4TCR_-66Q" sourceAnchor="260.0,0.0" targetAnchor="245.0,365.0" superClass="_v1k-gHAiEe66x4TCR_-66Q" subClass="_vztWQHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tav60nAiEe66x4TCR_-66Q"/>
+    <bendpoints xmi:id="_IWJVQHb9Ee6XVaXlNWgZlA" sourceY="-34" targetX="-1096" targetY="110"/>
+    <bendpoints xmi:id="_IWJVQXb9Ee6XVaXlNWgZlA" sourceX="1096" sourceY="-41" targetY="103"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_v0ojUHAiEe66x4TCR_-66Q" sourceAnchor="272.0,0.0" targetAnchor="245.0,365.0" superClass="_v1k-gHAiEe66x4TCR_-66Q" subClass="_v0y7YHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_ta3PknAiEe66x4TCR_-66Q"/>
+    <bendpoints xmi:id="_IWJVRnb9Ee6XVaXlNWgZlA" sourceY="-30" targetX="1114" targetY="110"/>
+    <bendpoints xmi:id="_IWJVR3b9Ee6XVaXlNWgZlA" sourceX="-1114" sourceY="-37" targetY="103"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_v07eQHAiEe66x4TCR_-66Q" sourceAnchor="259.0,0.0" targetAnchor="245.0,365.0" superClass="_v1k-gHAiEe66x4TCR_-66Q" subClass="_v0-hkHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_ta8IEHAiEe66x4TCR_-66Q"/>
+    <bendpoints xmi:id="_IWJVSHb9Ee6XVaXlNWgZlA" sourceY="-34" targetX="1660" targetY="110"/>
+    <bendpoints xmi:id="_IWJVSXb9Ee6XVaXlNWgZlA" sourceX="-1660" sourceY="-41" targetY="103"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_v1OZMHAiEe66x4TCR_-66Q" sourceAnchor="262.0,0.0" targetAnchor="245.0,365.0" superClass="_v1k-gHAiEe66x4TCR_-66Q" subClass="_v1RcgHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tbBAkHAiEe66x4TCR_-66Q"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_v2BDYHAiEe66x4TCR_-66Q" sourceAnchor="140.0,0.0" targetAnchor="120.0,124.0" superClass="_vz3uUHAiEe66x4TCR_-66Q" subClass="_v2FU0HAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tbF5E3AiEe66x4TCR_-66Q"/>
+    <bendpoints xmi:id="_IWJ8UHb9Ee6XVaXlNWgZlA" sourceY="-30" targetX="-428" targetY="52"/>
+    <bendpoints xmi:id="_IWJ8UXb9Ee6XVaXlNWgZlA" sourceX="428" sourceY="-30" targetY="52"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_v2XBoHAiEe66x4TCR_-66Q" sourceAnchor="271.0,0.0" targetAnchor="245.0,365.0" superClass="_v1k-gHAiEe66x4TCR_-66Q" subClass="_v2asAHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tbKKgnAiEe66x4TCR_-66Q"/>
+    <bendpoints xmi:id="_IWJVRHb9Ee6XVaXlNWgZlA" sourceY="-38" targetX="554" targetY="110"/>
+    <bendpoints xmi:id="_IWJVRXb9Ee6XVaXlNWgZlA" sourceX="-554" sourceY="-45" targetY="103"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_mBywsHb7Ee6XVaXlNWgZlA" sourceAnchor="215.0,0.0" targetAnchor="263.0,37.0" dashed="true" superClass="_v0TzMHAiEe66x4TCR_-66Q" subClass="_v1k-gHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_mBq04Hb7Ee6XVaXlNWgZlA"/>
+    <bendpoints xmi:id="_IWIuMHb9Ee6XVaXlNWgZlA" sourceY="-62" targetX="344"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vz3uUHAiEe66x4TCR_-66Q" name="Escac" abstractClass="true" associationsIn="_vy0lcHAiEe66x4TCR_-66Q" subclassedBy="_vzeswnAiEe66x4TCR_-66Q _v2BDYHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tZCDkHAiEe66x4TCR_-66Q"/>
+    <visualProperties xmi:id="_vz3uUXAiEe66x4TCR_-66Q" position="1270.0,37.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vz3uUnAiEe66x4TCR_-66Q" label="+"/>
+    <attributes xmi:id="_vz3uU3AiEe66x4TCR_-66Q" name="color">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbPDAHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_vz3uVHAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbPqEHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_vz3uVXAiEe66x4TCR_-66Q" label="#"/>
+      <cardinality xmi:id="_vz3uVnAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <type xmi:id="_vz3uV3AiEe66x4TCR_-66Q" name="Color">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_vz3uWHAiEe66x4TCR_-66Q" name="getColor">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZD4wHAiEe66x4TCR_-66Q"/>
+      <visibility xmi:id="_vz3uWXAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vz3uWnAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vz3uW3AiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_taxwAHAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vz3uXHAiEe66x4TCR_-66Q" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vz3uXXAiEe66x4TCR_-66Q" name="toString">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZEf0HAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_vz3uXnAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZFt8HAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vz3uX3AiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZGVAHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_vz3uYHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vz3uYXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vz3uYnAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZFG4HAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vz3uY3AiEe66x4TCR_-66Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vz3uZHAiEe66x4TCR_-66Q" name="Escac">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tawh4HAiEe66x4TCR_-66Q"/>
+      <keywords xmi:id="_vz3uZXAiEe66x4TCR_-66Q" keyword="create"/>
+      <visibility xmi:id="_vz3uZnAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vz3uZ3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vz3uaHAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_taxI83AiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vz3uaXAiEe66x4TCR_-66Q" name="Escac">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tZCDkHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vz3uanAiEe66x4TCR_-66Q" name="color">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_taxI8HAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vz3ua3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vz3ubHAiEe66x4TCR_-66Q" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v1k-gHAiEe66x4TCR_-66Q" name="Peca" abstractClass="true" associationsOut="_vzCn4HAiEe66x4TCR_-66Q _vzdeoHAiEe66x4TCR_-66Q" generalizations="_mBywsHb7Ee6XVaXlNWgZlA" subclassedBy="_vy_kkHAiEe66x4TCR_-66Q _vzqS8HAiEe66x4TCR_-66Q _v0ojUHAiEe66x4TCR_-66Q _v07eQHAiEe66x4TCR_-66Q _v1OZMHAiEe66x4TCR_-66Q _v2XBoHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tZdhYHAiEe66x4TCR_-66Q"/>
+    <visualProperties xmi:id="_v1k-gXAiEe66x4TCR_-66Q" position="1119.0,477.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_v1llkHAiEe66x4TCR_-66Q" label="+"/>
+    <attributes xmi:id="_v1llkXAiEe66x4TCR_-66Q" name="equip">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbQ4MHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v1llknAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbRfQHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v1llk3AiEe66x4TCR_-66Q" label="#"/>
+      <cardinality xmi:id="_v1lllHAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <type xmi:id="_v1lllXAiEe66x4TCR_-66Q" name="Color">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_v1lllnAiEe66x4TCR_-66Q" name="valor">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbRfQXAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v1lll3AiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbSGUHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v1llmHAiEe66x4TCR_-66Q" label="#"/>
+      <cardinality xmi:id="_v1llmXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <type xmi:id="_v1llmnAiEe66x4TCR_-66Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_v1llm3AiEe66x4TCR_-66Q" name="posicio">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbSGUXAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_YkdB0Hb7Ee6XVaXlNWgZlA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_YkeP8Hb7Ee6XVaXlNWgZlA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_YkjvgHb7Ee6XVaXlNWgZlA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_v1llnXAiEe66x4TCR_-66Q" label="#"/>
+      <cardinality xmi:id="_v1llnnAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <type xmi:id="_v1lln3AiEe66x4TCR_-66Q" name="Posicio">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_v1lloHAiEe66x4TCR_-66Q" abstractOperation="true" name="posicionsPosibles">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZfWkHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v1lloXAiEe66x4TCR_-66Q" name="Array">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZf9oHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v1llonAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v1llo3AiEe66x4TCR_-66Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_v1llpHAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZfWkXAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v1llpXAiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v1llpnAiEe66x4TCR_-66Q" name="getEquip">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZgksHAiEe66x4TCR_-66Q"/>
+      <visibility xmi:id="_v1llp3AiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v1llqHAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v1llqXAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbED4HAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v1llqnAiEe66x4TCR_-66Q" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v1llq3AiEe66x4TCR_-66Q" name="getValor">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZgksXAiEe66x4TCR_-66Q"/>
+      <visibility xmi:id="_v1llrHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v1llrXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v1llrnAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZhLwHAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v1llr3AiEe66x4TCR_-66Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v1llsHAiEe66x4TCR_-66Q" name="getPosicio">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZhLwXAiEe66x4TCR_-66Q"/>
+      <visibility xmi:id="_v1llsXAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v1llsnAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v1lls3AiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbED4XAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v1lltHAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v1lltXAiEe66x4TCR_-66Q" name="toString">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZhy0HAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v1lltnAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZiZ4HAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v1llt3AiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZiZ4XAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v1lluHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v1lluXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v1llunAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZhy0XAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v1llu3AiEe66x4TCR_-66Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v1llvHAiEe66x4TCR_-66Q" name="Peca">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbBnoHAiEe66x4TCR_-66Q"/>
+      <keywords xmi:id="_v1llvXAiEe66x4TCR_-66Q" keyword="create"/>
+      <visibility xmi:id="_v1llvnAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v1llv3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v1llwHAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbCOtHAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v1llwXAiEe66x4TCR_-66Q" name="Peca">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tZdhYHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v1llwnAiEe66x4TCR_-66Q" name="pCol">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbBnoXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v1llw3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v1llxHAiEe66x4TCR_-66Q" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v1llxXAiEe66x4TCR_-66Q" name="valor">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbCOsHAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v1llxnAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v1llx3AiEe66x4TCR_-66Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v1llyHAiEe66x4TCR_-66Q" name="pos">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbCOsXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v1llyXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v1llynAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_v1lly3AiEe66x4TCR_-66Q" abstractOperation="true" name="movimentPosible">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbC1wHAiEe66x4TCR_-66Q"/>
+      <visibility xmi:id="_v1llzHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v1llzXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v1llznAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbC1w3AiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v1llz3AiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v1ll0HAiEe66x4TCR_-66Q" name="tauler">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbC1wXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v1ll0XAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v1ll0nAiEe66x4TCR_-66Q" name="Tauler">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYjicHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v1ll03AiEe66x4TCR_-66Q" name="posicioNova">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbC1wnAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v1ll1HAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v1ll1XAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_v1ll1nAiEe66x4TCR_-66Q" name="movimentsPosibles">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbDc0HAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v1ll13AiEe66x4TCR_-66Q" name="Array">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbDc1HAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v1ll2HAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v1ll2XAiEe66x4TCR_-66Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_v1ll2nAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbDc0nAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v1ll23AiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v1ll3HAiEe66x4TCR_-66Q" name="tauler">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbDc0XAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v1ll3XAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v1ll3nAiEe66x4TCR_-66Q" name="Tauler">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYjicHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_v1ll33AiEe66x4TCR_-66Q" name="setPosicio">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbED4nAiEe66x4TCR_-66Q"/>
+      <visibility xmi:id="_v1ll4HAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v1ll4XAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_v1ll4nAiEe66x4TCR_-66Q" name="pos">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbED43AiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v1ll43AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v1ll5HAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a5wsUHb7Ee6XVaXlNWgZlA" name="hihaMovimentsPosibles">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_a2TvsHb7Ee6XVaXlNWgZlA"/>
+      <visibility xmi:id="_a5wsUXb7Ee6XVaXlNWgZlA" label="+"/>
+      <cardinality xmi:id="_a5wsUnb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a5wsU3b7Ee6XVaXlNWgZlA">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2sKMHb7Ee6XVaXlNWgZlA"/>
+        <type xmi:id="_a5wsVHb7Ee6XVaXlNWgZlA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a5wsVXb7Ee6XVaXlNWgZlA" name="tauler">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2TvsXb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a5wsVnb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a5wsV3b7Ee6XVaXlNWgZlA" name="Tauler">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYjicHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a5yhgHb7Ee6XVaXlNWgZlA" name="isMateixEquip">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_a2Tvsnb7Ee6XVaXlNWgZlA"/>
+      <visibility xmi:id="_a5yhgXb7Ee6XVaXlNWgZlA" label="+"/>
+      <cardinality xmi:id="_a5yhgnb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a5yhg3b7Ee6XVaXlNWgZlA">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2sKMXb7Ee6XVaXlNWgZlA"/>
+        <type xmi:id="_a5yhhHb7Ee6XVaXlNWgZlA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a5yhhXb7Ee6XVaXlNWgZlA" name="col">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2UWwHb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a5yhhnb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a5yhh3b7Ee6XVaXlNWgZlA" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sOOoUHb8Ee6XVaXlNWgZlA" name="compareTo">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_sN87gHb8Ee6XVaXlNWgZlA"/>
+      <stereotypes xmi:id="_sOOoUXb8Ee6XVaXlNWgZlA" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_sN9ikHb8Ee6XVaXlNWgZlA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sOOoUnb8Ee6XVaXlNWgZlA" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_sN_XwHb8Ee6XVaXlNWgZlA"/>
+      </stereotypes>
+      <visibility xmi:id="_sOOoU3b8Ee6XVaXlNWgZlA" label="+"/>
+      <cardinality xmi:id="_sOOoVHb8Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_sOOoVXb8Ee6XVaXlNWgZlA">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_sOAl4Hb8Ee6XVaXlNWgZlA"/>
+        <type xmi:id="_sOOoVnb8Ee6XVaXlNWgZlA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_sOOoV3b8Ee6XVaXlNWgZlA" name="arg0">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_sN87gXb8Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_sOOoWHb8Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_sOOoWXb8Ee6XVaXlNWgZlA" name="Ordenable">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tZIxQHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sORroHb8Ee6XVaXlNWgZlA" name="equals">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_sOJIwXb8Ee6XVaXlNWgZlA"/>
+      <stereotypes xmi:id="_sORroXb8Ee6XVaXlNWgZlA" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_sOJv0Xb8Ee6XVaXlNWgZlA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sORronb8Ee6XVaXlNWgZlA" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_sOJv0nb8Ee6XVaXlNWgZlA"/>
+      </stereotypes>
+      <visibility xmi:id="_sORro3b8Ee6XVaXlNWgZlA" label="+"/>
+      <cardinality xmi:id="_sORrpHb8Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_sORrpXb8Ee6XVaXlNWgZlA">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_sOJv0Hb8Ee6XVaXlNWgZlA"/>
+        <type xmi:id="_sORrpnb8Ee6XVaXlNWgZlA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_sORrp3b8Ee6XVaXlNWgZlA" name="obj">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_sOJIwnb8Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_sORrqHb8Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_sORrqXb8Ee6XVaXlNWgZlA" name="Object">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_sOIhsHb8Ee6XVaXlNWgZlA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_sOVWAHb8Ee6XVaXlNWgZlA" name="compareTo">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_sOKW4Xb8Ee6XVaXlNWgZlA"/>
+      <stereotypes xmi:id="_sOVWAXb8Ee6XVaXlNWgZlA" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_sOK98Hb8Ee6XVaXlNWgZlA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sOVWAnb8Ee6XVaXlNWgZlA" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_sOK98Xb8Ee6XVaXlNWgZlA"/>
+      </stereotypes>
+      <visibility xmi:id="_sOVWA3b8Ee6XVaXlNWgZlA" label="+"/>
+      <cardinality xmi:id="_sOVWBHb8Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_sOVWBXb8Ee6XVaXlNWgZlA">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_sOKW43b8Ee6XVaXlNWgZlA"/>
+        <type xmi:id="_sOVWBnb8Ee6XVaXlNWgZlA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_sOVWB3b8Ee6XVaXlNWgZlA" name="arg0">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_sOKW4nb8Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_sOVWCHb8Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_sOVWCXb8Ee6XVaXlNWgZlA" name="Object">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_sOIhsHb8Ee6XVaXlNWgZlA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vyhDcHAiEe66x4TCR_-66Q" name="Posicio" associationsIn="_vzCn4HAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+    <visualProperties xmi:id="_vyhDcXAiEe66x4TCR_-66Q" position="634.0,557.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vyhDcnAiEe66x4TCR_-66Q" label="+"/>
+    <attributes xmi:id="_vyhDc3AiEe66x4TCR_-66Q" name="x">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbMmwHAiEe66x4TCR_-66Q"/>
+      <visibility xmi:id="_vyhDdHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vyhDdXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <type xmi:id="_vyhDdnAiEe66x4TCR_-66Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vyhDd3AiEe66x4TCR_-66Q" name="y">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbMmwXAiEe66x4TCR_-66Q"/>
+      <visibility xmi:id="_vyhDeHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vyhDeXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <type xmi:id="_vyhDenAiEe66x4TCR_-66Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_vyhDe3AiEe66x4TCR_-66Q" name="Posicio">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tYf4EHAiEe66x4TCR_-66Q"/>
+      <keywords xmi:id="_vyhDfHAiEe66x4TCR_-66Q" keyword="create"/>
+      <visibility xmi:id="_vyhDfXAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vyhDfnAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vyhDf3AiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYgfInAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vyhDgHAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vyhDgXAiEe66x4TCR_-66Q" name="Posicio">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tYhtQHAiEe66x4TCR_-66Q"/>
+      <keywords xmi:id="_vyhDgnAiEe66x4TCR_-66Q" keyword="create"/>
+      <visibility xmi:id="_vyhDg3AiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vyhDhHAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vyhDhXAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYiUUnAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vyhDhnAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vyhDh3AiEe66x4TCR_-66Q" name="x">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYhtQXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vyhDiHAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vyhDiXAiEe66x4TCR_-66Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vyhDinAiEe66x4TCR_-66Q" name="y">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYhtQnAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vyhDi3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vyhDjHAiEe66x4TCR_-66Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vy1MgHAiEe66x4TCR_-66Q" name="Tauler" associationsOut="_vy0lcHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tYjicHAiEe66x4TCR_-66Q"/>
+    <visualProperties xmi:id="_vy1MgXAiEe66x4TCR_-66Q" position="133.0,53.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vy1MgnAiEe66x4TCR_-66Q" label="+"/>
+    <attributes xmi:id="_vy1Mg3AiEe66x4TCR_-66Q" name="escacs">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbNN0HAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_YkYwYHb7Ee6XVaXlNWgZlA" name="Array"/>
+      <stereotypes xmi:id="_YkZ-gHb7Ee6XVaXlNWgZlA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_YkbMoHb7Ee6XVaXlNWgZlA" name="Array"/>
+      <stereotypes xmi:id="_YkbzsHb7Ee6XVaXlNWgZlA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_YkgsMHb7Ee6XVaXlNWgZlA" name="Array"/>
+      <stereotypes xmi:id="_YkhTQHb7Ee6XVaXlNWgZlA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_vy1MhnAiEe66x4TCR_-66Q" label="-"/>
+      <cardinality xmi:id="_vy1Mh3AiEe66x4TCR_-66Q" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_vy1MiHAiEe66x4TCR_-66Q" name="Escac">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZCDkHAiEe66x4TCR_-66Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_vy1MiXAiEe66x4TCR_-66Q" name="Tauler">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tYkwkHAiEe66x4TCR_-66Q"/>
+      <keywords xmi:id="_vy1MinAiEe66x4TCR_-66Q" keyword="create"/>
+      <visibility xmi:id="_vy1Mi3AiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vy1MjHAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vy1MjXAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYlXonAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vy1MjnAiEe66x4TCR_-66Q" name="Tauler">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYjicHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vy1Mj3AiEe66x4TCR_-66Q" name="crearPartida">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tYlXo3AiEe66x4TCR_-66Q"/>
+      <visibility xmi:id="_vy1MkHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vy1MkXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vy1MknAiEe66x4TCR_-66Q" name="getCaselles">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tYl-sHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_vy1Mk3AiEe66x4TCR_-66Q" name="Array">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYmlwnAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_vy1MlHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vy1MlXAiEe66x4TCR_-66Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_vy1MlnAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYmlwHAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vy1Ml3AiEe66x4TCR_-66Q" name="Escac">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tZCDkHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vy1MmHAiEe66x4TCR_-66Q" name="imprimirTauler">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tYnz4HAiEe66x4TCR_-66Q"/>
+      <visibility xmi:id="_vy1MmXAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vy1MmnAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_vy1Mm3AiEe66x4TCR_-66Q" name="addPeca">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tahRUHAiEe66x4TCR_-66Q"/>
+      <visibility xmi:id="_vy1MnHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vy1MnXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vy1MnnAiEe66x4TCR_-66Q" name="e">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tahRUXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vy1Mn3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vy1MoHAiEe66x4TCR_-66Q" name="Peca">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tZdhYHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vy1MoXAiEe66x4TCR_-66Q" name="p">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tahRUnAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vy1MonAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vy1Mo3AiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a6MKIHb7Ee6XVaXlNWgZlA" name="mouPeca">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_a2EfIHb7Ee6XVaXlNWgZlA"/>
+      <visibility xmi:id="_a6MKIXb7Ee6XVaXlNWgZlA" label="+"/>
+      <cardinality xmi:id="_a6MKInb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a6MKI3b7Ee6XVaXlNWgZlA">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2FGMXb7Ee6XVaXlNWgZlA"/>
+        <type xmi:id="_a6MKJHb7Ee6XVaXlNWgZlA" name="Peca">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tZdhYHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a6MKJXb7Ee6XVaXlNWgZlA" name="posInicial">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2EfIXb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a6MKJnb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a6MKJ3b7Ee6XVaXlNWgZlA" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_a6MKKHb7Ee6XVaXlNWgZlA" name="posFinal">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2FGMHb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a6MKKXb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a6MKKnb7Ee6XVaXlNWgZlA" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a6N_UHb7Ee6XVaXlNWgZlA" name="pecesDelMateixEquip">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_a2FGMnb7Ee6XVaXlNWgZlA"/>
+      <stereotypes xmi:id="_a6N_UXb7Ee6XVaXlNWgZlA" name="Array">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2GUUHb7Ee6XVaXlNWgZlA"/>
+      </stereotypes>
+      <visibility xmi:id="_a6N_Unb7Ee6XVaXlNWgZlA" label="+"/>
+      <cardinality xmi:id="_a6N_U3b7Ee6XVaXlNWgZlA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_a6N_VHb7Ee6XVaXlNWgZlA">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2FtQXb7Ee6XVaXlNWgZlA"/>
+        <type xmi:id="_a6N_VXb7Ee6XVaXlNWgZlA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a6N_Vnb7Ee6XVaXlNWgZlA" name="col">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2FtQHb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a6N_V3b7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a6N_WHb7Ee6XVaXlNWgZlA" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a6P0gHb7Ee6XVaXlNWgZlA" name="pecesEquipContrari">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_a2G7YHb7Ee6XVaXlNWgZlA"/>
+      <stereotypes xmi:id="_a6P0gXb7Ee6XVaXlNWgZlA" name="Array">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2HicHb7Ee6XVaXlNWgZlA"/>
+      </stereotypes>
+      <visibility xmi:id="_a6P0gnb7Ee6XVaXlNWgZlA" label="+"/>
+      <cardinality xmi:id="_a6P0g3b7Ee6XVaXlNWgZlA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_a6P0hHb7Ee6XVaXlNWgZlA">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2G7Ynb7Ee6XVaXlNWgZlA"/>
+        <type xmi:id="_a6P0hXb7Ee6XVaXlNWgZlA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a6P0hnb7Ee6XVaXlNWgZlA" name="col">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2G7YXb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a6P0h3b7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a6P0iHb7Ee6XVaXlNWgZlA" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a6RpsHb7Ee6XVaXlNWgZlA" name="getPeca">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_a2HicXb7Ee6XVaXlNWgZlA"/>
+      <visibility xmi:id="_a6RpsXb7Ee6XVaXlNWgZlA" label="+"/>
+      <cardinality xmi:id="_a6Rpsnb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a6Rps3b7Ee6XVaXlNWgZlA">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2IJgHb7Ee6XVaXlNWgZlA"/>
+        <type xmi:id="_a6RptHb7Ee6XVaXlNWgZlA" name="Peca">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tZdhYHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a6RptXb7Ee6XVaXlNWgZlA" name="pos">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2Hicnb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a6Rptnb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a6Rpt3b7Ee6XVaXlNWgZlA" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a6g6QHb7Ee6XVaXlNWgZlA" name="imprimirMateix">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_a2IJgXb7Ee6XVaXlNWgZlA"/>
+      <visibility xmi:id="_a6g6QXb7Ee6XVaXlNWgZlA" label="+"/>
+      <cardinality xmi:id="_a6g6Qnb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a6g6Q3b7Ee6XVaXlNWgZlA" name="col">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2IJgnb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a6g6RHb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a6g6RXb7Ee6XVaXlNWgZlA" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a6iIYHb7Ee6XVaXlNWgZlA" name="imprimirContrari">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_a2IwkHb7Ee6XVaXlNWgZlA"/>
+      <visibility xmi:id="_a6ivcHb7Ee6XVaXlNWgZlA" label="+"/>
+      <cardinality xmi:id="_a6ivcXb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_a6ivcnb7Ee6XVaXlNWgZlA" name="col">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2IwkXb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a6ivc3b7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a6ivdHb7Ee6XVaXlNWgZlA" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_v0TzMHAiEe66x4TCR_-66Q" name="Ordenable" subclassedBy="_mBywsHb7Ee6XVaXlNWgZlA">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tZIxQHAiEe66x4TCR_-66Q"/>
+    <visualProperties xmi:id="_v0TzMXAiEe66x4TCR_-66Q" position="727.0,377.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_v0TzMnAiEe66x4TCR_-66Q" label="+"/>
+    <operations xmi:id="_v0TzM3AiEe66x4TCR_-66Q" name="compareTo">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tayXEHAiEe66x4TCR_-66Q"/>
+      <visibility xmi:id="_v0TzNHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v0TzNXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v0TzNnAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tayXEnAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v0TzN3AiEe66x4TCR_-66Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v0TzOHAiEe66x4TCR_-66Q" name="e">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tayXEXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v0TzOXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v0TzOnAiEe66x4TCR_-66Q" name="Ordenable">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tZIxQHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vztWQHAiEe66x4TCR_-66Q" name="Cavall" generalizations="_vzqS8HAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tY5gsHAiEe66x4TCR_-66Q"/>
+    <visualProperties xmi:id="_vztWQXAiEe66x4TCR_-66Q" position="8.0,986.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vztWQnAiEe66x4TCR_-66Q" label="+"/>
+    <operations xmi:id="_vztWQ3AiEe66x4TCR_-66Q" name="posicionsPosibles">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tY6u0HAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_vztWRHAiEe66x4TCR_-66Q" name="Array">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tY788HAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vztWRXAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tY8kAHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vztWRnAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tY8kAXAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_vztWR3AiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vztWSHAiEe66x4TCR_-66Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_vztWSXAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tY7V4HAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vztWSnAiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vztWS3AiEe66x4TCR_-66Q" name="toString">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tY9yIHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_vztWTHAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tY_AQHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vztWTXAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tY_nUHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_vztWTnAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vztWT3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vztWUHAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tY-ZMHAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vztWUXAiEe66x4TCR_-66Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vztWUnAiEe66x4TCR_-66Q" name="Cavall">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tarpYHAiEe66x4TCR_-66Q"/>
+      <keywords xmi:id="_vztWU3AiEe66x4TCR_-66Q" keyword="create"/>
+      <visibility xmi:id="_vztWVHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vztWVXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vztWVnAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tasQcnAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vztWV3AiEe66x4TCR_-66Q" name="Cavall">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tY5gsHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vztWWHAiEe66x4TCR_-66Q" name="pCol">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tarpYXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vztWWXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vztWWnAiEe66x4TCR_-66Q" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vztWW3AiEe66x4TCR_-66Q" name="pos">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tarpYnAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vztWXHAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vztWXXAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_vztWXnAiEe66x4TCR_-66Q" name="movimentPosible">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tas3gHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_vztWX3AiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tatekXAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vztWYHAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tauFoHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_vztWYXAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vztWYnAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vztWY3AiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tatekHAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vztWZHAiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vztWZXAiEe66x4TCR_-66Q" name="tauler">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tas3gXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vztWZnAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vztWZ3AiEe66x4TCR_-66Q" name="Tauler">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYjicHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vztWaHAiEe66x4TCR_-66Q" name="posicioNova">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tas3gnAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vztWaXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vztWanAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vzNnAHAiEe66x4TCR_-66Q" name="Alfil" generalizations="_vy_kkHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tYppEHAiEe66x4TCR_-66Q"/>
+    <visualProperties xmi:id="_vzNnAXAiEe66x4TCR_-66Q" position="543.0,986.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vzNnAnAiEe66x4TCR_-66Q" label="+"/>
+    <operations xmi:id="_vzNnA3AiEe66x4TCR_-66Q" name="posicionsPosibles">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tYq3MHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_vzNnBHAiEe66x4TCR_-66Q" name="Array">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYreQnAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vzNnBXAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYsFUHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vzNnBnAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYuhkHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_vzNnB3AiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vzNnCHAiEe66x4TCR_-66Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_vzNnCXAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYreQHAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vzNnCnAiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vzNnC3AiEe66x4TCR_-66Q" name="toString">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tYvvsHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_vzNnDHAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYwWwHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vzNnDXAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYw90HAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_vzNnDnAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vzNnD3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vzNnEHAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYvvsXAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vzNnEXAiEe66x4TCR_-66Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vzNnEnAiEe66x4TCR_-66Q" name="Alfil">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tajGgHAiEe66x4TCR_-66Q"/>
+      <keywords xmi:id="_vzNnE3AiEe66x4TCR_-66Q" keyword="create"/>
+      <visibility xmi:id="_vzNnFHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vzNnFXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vzNnFnAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tajGhXAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vzNnF3AiEe66x4TCR_-66Q" name="Alfil">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYppEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vzNnGHAiEe66x4TCR_-66Q" name="pCol">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tajGgXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vzNnGXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vzNnGnAiEe66x4TCR_-66Q" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vzNnG3AiEe66x4TCR_-66Q" name="pos">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tajGgnAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vzNnHHAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vzNnHXAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_vzNnKXAiEe66x4TCR_-66Q" name="movimentPosible">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tamw4HAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_vzNnKnAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tanX8HAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vzNnK3AiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tan_AHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_vzNnLHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vzNnLXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vzNnLnAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tamw43AiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vzNnL3AiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vzNnMHAiEe66x4TCR_-66Q" name="tauler">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tamw4XAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vzOOEHAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vzOOEXAiEe66x4TCR_-66Q" name="Tauler">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYjicHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vzOOEnAiEe66x4TCR_-66Q" name="posicioNova">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tamw4nAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vzOOE3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vzOOFHAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a3td4Hb7Ee6XVaXlNWgZlA" name="casellesIntermitjesBuides">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_a2Ma8Hb7Ee6XVaXlNWgZlA"/>
+      <visibility xmi:id="_a3td4Xb7Ee6XVaXlNWgZlA" label="-"/>
+      <cardinality xmi:id="_a3td4nb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a3td43b7Ee6XVaXlNWgZlA">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2q8EHb7Ee6XVaXlNWgZlA"/>
+        <type xmi:id="_a3td5Hb7Ee6XVaXlNWgZlA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a3td5Xb7Ee6XVaXlNWgZlA" name="tauler">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2Ma8Xb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a3td5nb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a3td53b7Ee6XVaXlNWgZlA" name="Tauler">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYjicHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_a3td6Hb7Ee6XVaXlNWgZlA" name="posicioNova">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2NCAHb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a3td6Xb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a3td6nb7Ee6XVaXlNWgZlA" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v1RcgHAiEe66x4TCR_-66Q" name="Rei" generalizations="_v1OZMHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tZYo4HAiEe66x4TCR_-66Q"/>
+    <visualProperties xmi:id="_v1RcgXAiEe66x4TCR_-66Q" position="1102.0,989.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_v1RcgnAiEe66x4TCR_-66Q" label="+"/>
+    <operations xmi:id="_v1Rcg3AiEe66x4TCR_-66Q" name="posicionsPosibles">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZZP8HAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v1RchHAiEe66x4TCR_-66Q" name="Array">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZZ3AnAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v1RchXAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZaeEHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v1RchnAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZaeEXAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v1Rch3AiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v1RciHAiEe66x4TCR_-66Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_v1RciXAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZZ3AHAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v1RcinAiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v1Rci3AiEe66x4TCR_-66Q" name="toString">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZbFIHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v1RcjHAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZbsMHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v1RcjXAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZcTQHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v1RcjnAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v1Rcj3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v1RckHAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZbFIXAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v1RckXAiEe66x4TCR_-66Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v1RcknAiEe66x4TCR_-66Q" name="Rei">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_ta8vIHAiEe66x4TCR_-66Q"/>
+      <keywords xmi:id="_v1Rck3AiEe66x4TCR_-66Q" keyword="create"/>
+      <visibility xmi:id="_v1RclHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v1RclXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v1RclnAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta9WMHAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v1Rcl3AiEe66x4TCR_-66Q" name="Rei">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tZYo4HAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v1RcmHAiEe66x4TCR_-66Q" name="pCol">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta8vIXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v1RcmXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v1RcmnAiEe66x4TCR_-66Q" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v1Rcm3AiEe66x4TCR_-66Q" name="pos">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta8vInAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v1RcnHAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v1RcnXAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_v1RcnnAiEe66x4TCR_-66Q" name="movimentPosible">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_ta9WMXAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v1Rcn3AiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta99QnAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v1RcoHAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta-kUHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v1RcoXAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v1RconAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v1Rco3AiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta99QXAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v1RcpHAiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v1RcpXAiEe66x4TCR_-66Q" name="tauler">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta9WMnAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v1RcpnAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v1Rcp3AiEe66x4TCR_-66Q" name="Tauler">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYjicHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v1RcqHAiEe66x4TCR_-66Q" name="posicioNova">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta99QHAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v1RcqXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v1RcqnAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v2asAHAiEe66x4TCR_-66Q" name="Torre" generalizations="_v2XBoHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tZn5cHAiEe66x4TCR_-66Q"/>
+    <visualProperties xmi:id="_v2asAXAiEe66x4TCR_-66Q" position="1647.0,990.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_v2asAnAiEe66x4TCR_-66Q" label="+"/>
+    <operations xmi:id="_v2asA3AiEe66x4TCR_-66Q" name="posicionsPosibles">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZpHkHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v2asBHAiEe66x4TCR_-66Q" name="Array">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZpuoHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v2asBXAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZpuoXAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v2asBnAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZqVsHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v2asB3AiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v2asCHAiEe66x4TCR_-66Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_v2asCXAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZpHkXAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v2asCnAiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v2asC3AiEe66x4TCR_-66Q" name="toString">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZq8wHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v2asDHAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZrj0HAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v2asDXAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZrj0XAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v2asDnAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v2asD3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v2asEHAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZq8wXAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v2asEXAiEe66x4TCR_-66Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v2asEnAiEe66x4TCR_-66Q" name="Torre">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbGgIHAiEe66x4TCR_-66Q"/>
+      <keywords xmi:id="_v2asE3AiEe66x4TCR_-66Q" keyword="create"/>
+      <visibility xmi:id="_v2asFHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v2asFXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v2asFnAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbHHMnAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v2asF3AiEe66x4TCR_-66Q" name="Torre">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tZn5cHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v2asGHAiEe66x4TCR_-66Q" name="pCol">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbGgIXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v2asGXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v2asGnAiEe66x4TCR_-66Q" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v2asG3AiEe66x4TCR_-66Q" name="pos">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbGgInAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v2asHHAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v2asHXAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_v2asHnAiEe66x4TCR_-66Q" name="movimentPosible">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbHHM3AiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v2asH3AiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbHuQ3AiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v2asIHAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbIVUHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v2asIXAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v2asInAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v2asI3AiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbHuQnAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v2asJHAiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v2asJXAiEe66x4TCR_-66Q" name="tauler">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbHuQHAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v2asJnAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v2asJ3AiEe66x4TCR_-66Q" name="Tauler">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYjicHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v2asKHAiEe66x4TCR_-66Q" name="posicioNova">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbHuQXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v2asKXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v2asKnAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a6GDgHb7Ee6XVaXlNWgZlA" name="casellesIntermitjesBuides">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_a2hLEHb7Ee6XVaXlNWgZlA"/>
+      <visibility xmi:id="_a6GDgXb7Ee6XVaXlNWgZlA" label="-"/>
+      <cardinality xmi:id="_a6GDgnb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a6GDg3b7Ee6XVaXlNWgZlA">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2umcHb7Ee6XVaXlNWgZlA"/>
+        <type xmi:id="_a6GDhHb7Ee6XVaXlNWgZlA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a6GDhXb7Ee6XVaXlNWgZlA" name="tauler">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2hyIHb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a6GDhnb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a6GDh3b7Ee6XVaXlNWgZlA" name="Tauler">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYjicHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_a6GDiHb7Ee6XVaXlNWgZlA" name="posicioNova">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2hyIXb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a6GDiXb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a6GDinb7Ee6XVaXlNWgZlA" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v0y7YHAiEe66x4TCR_-66Q" name="Reina" generalizations="_v0ojUHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tZKmcHAiEe66x4TCR_-66Q"/>
+    <visualProperties xmi:id="_v0y7YXAiEe66x4TCR_-66Q" position="2206.0,982.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_v0y7YnAiEe66x4TCR_-66Q" label="+"/>
+    <operations xmi:id="_v0y7Y3AiEe66x4TCR_-66Q" name="posicionsPosibles">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZMboHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v0y7ZHAiEe66x4TCR_-66Q" name="Array">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZNCsHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v0y7ZXAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZNpwHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v0y7ZnAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZNpwXAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v0y7Z3AiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v0y7aHAiEe66x4TCR_-66Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_v0y7aXAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZMboXAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v0y7anAiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v0y7a3AiEe66x4TCR_-66Q" name="toString">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZOQ0HAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v0y7bHAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZO34XAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v0y7bXAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZPe8HAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v0y7bnAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v0y7b3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v0y7cHAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZO34HAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v0y7cXAiEe66x4TCR_-66Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v0y7cnAiEe66x4TCR_-66Q" name="Reina">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tay-IHAiEe66x4TCR_-66Q"/>
+      <keywords xmi:id="_v0y7c3AiEe66x4TCR_-66Q" keyword="create"/>
+      <visibility xmi:id="_v0y7dHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v0y7dXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v0y7dnAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tazlM3AiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v0y7d3AiEe66x4TCR_-66Q" name="Reina">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tZKmcHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v0y7eHAiEe66x4TCR_-66Q" name="pCol">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tay-IXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v0y7eXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v0y7enAiEe66x4TCR_-66Q" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v0y7e3AiEe66x4TCR_-66Q" name="pos">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tazlMHAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v0y7fHAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v0y7fXAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_v0y7fnAiEe66x4TCR_-66Q" name="movimentPosible">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_ta0MQHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v0y7f3AiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta0zUXAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v0y7gHAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta1aYHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v0y7gXAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v0y7gnAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v0y7g3AiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta0zUHAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v0y7hHAiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v0y7hXAiEe66x4TCR_-66Q" name="tauler">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta0MQXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v0y7hnAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v0y7h3AiEe66x4TCR_-66Q" name="Tauler">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYjicHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v0y7iHAiEe66x4TCR_-66Q" name="posicioNova">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta0MQnAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v0y7iXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v0y7inAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a4AY0Hb7Ee6XVaXlNWgZlA" name="casellesIntermitjesBuides">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_a2c5oHb7Ee6XVaXlNWgZlA"/>
+      <visibility xmi:id="_a4AY0Xb7Ee6XVaXlNWgZlA" label="-"/>
+      <cardinality xmi:id="_a4AY0nb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_a4AY03b7Ee6XVaXlNWgZlA">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2t_YHb7Ee6XVaXlNWgZlA"/>
+        <type xmi:id="_a4AY1Hb7Ee6XVaXlNWgZlA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_a4AY1Xb7Ee6XVaXlNWgZlA" name="tauler">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2c5oXb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a4AY1nb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a4AY13b7Ee6XVaXlNWgZlA" name="Tauler">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYjicHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_a4AY2Hb7Ee6XVaXlNWgZlA" name="posicioNova">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2dgsHb7Ee6XVaXlNWgZlA"/>
+        <cardinality xmi:id="_a4AY2Xb7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+        <type xmi:id="_a4AY2nb7Ee6XVaXlNWgZlA" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v0-hkHAiEe66x4TCR_-66Q" name="Peo" generalizations="_v07eQHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tZSiQHAiEe66x4TCR_-66Q"/>
+    <visualProperties xmi:id="_v0-hkXAiEe66x4TCR_-66Q" position="2765.0,986.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_v0-hknAiEe66x4TCR_-66Q" label="+"/>
+    <operations xmi:id="_v0-hk3AiEe66x4TCR_-66Q" name="posicionsPosibles">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZTJUHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v0-hlHAiEe66x4TCR_-66Q" name="Array">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZUXcHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v0-hlXAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZU-gHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v0-hlnAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZU-gXAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v0-hl3AiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v0-hmHAiEe66x4TCR_-66Q" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_v0-hmXAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZTwYHAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v0-hmnAiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v0-hm3AiEe66x4TCR_-66Q" name="toString">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZVlkHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v0-hnHAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZWMoXAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v0_IoHAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZWzsHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v0_IoXAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v0_IonAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v0_Io3AiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZWMoHAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v0_IpHAiEe66x4TCR_-66Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v0_IpXAiEe66x4TCR_-66Q" name="Peo">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_ta32oHAiEe66x4TCR_-66Q"/>
+      <keywords xmi:id="_v0_IpnAiEe66x4TCR_-66Q" keyword="create"/>
+      <visibility xmi:id="_v0_Ip3AiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v0_IqHAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v0_IqXAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta4ds3AiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v0_IqnAiEe66x4TCR_-66Q" name="Peo">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tZSiQHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v0_Iq3AiEe66x4TCR_-66Q" name="pCol">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta32oXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v0_IrHAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v0_IrXAiEe66x4TCR_-66Q" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v0_IrnAiEe66x4TCR_-66Q" name="pos">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta4dsHAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v0_Ir3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v0_IsHAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_v0_IsXAiEe66x4TCR_-66Q" name="movimentPosible">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_ta5EwHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v0_IsnAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta5r0HAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v0_Is3AiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta6S4HAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v0_ItHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v0_ItXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v0_ItnAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta5Ew3AiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v0_It3AiEe66x4TCR_-66Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v0_IuHAiEe66x4TCR_-66Q" name="tauler">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta5EwXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v0_IuXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v0_IunAiEe66x4TCR_-66Q" name="Tauler">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYjicHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v0_Iu3AiEe66x4TCR_-66Q" name="posicioNova">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_ta5EwnAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v0_IvHAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v0_IvXAiEe66x4TCR_-66Q" name="Posicio">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYep8HAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_a4sVUHb7Ee6XVaXlNWgZlA" name="posicionsPerMenjar">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_a2XaEHb7Ee6XVaXlNWgZlA"/>
+      <stereotypes xmi:id="_a4sVUXb7Ee6XVaXlNWgZlA" name="Array">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2XaE3b7Ee6XVaXlNWgZlA"/>
+      </stereotypes>
+      <visibility xmi:id="_a4sVUnb7Ee6XVaXlNWgZlA" label="+"/>
+      <cardinality xmi:id="_a4sVU3b7Ee6XVaXlNWgZlA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_a4sVVHb7Ee6XVaXlNWgZlA">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a2XaEXb7Ee6XVaXlNWgZlA"/>
+        <type xmi:id="_a4sVVXb7Ee6XVaXlNWgZlA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vxwOcHAiEe66x4TCR_-66Q" name="Main">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tYa_kXAiEe66x4TCR_-66Q"/>
+    <visualProperties xmi:id="_vxwOcXAiEe66x4TCR_-66Q" position="133.0,557.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vxwOcnAiEe66x4TCR_-66Q" label="+"/>
+    <attributes xmi:id="_a6KU8Hb7Ee6XVaXlNWgZlA" name="torn">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_a3L5cHb7Ee6XVaXlNWgZlA"/>
+      <stereotypes xmi:id="_a6KU8Xb7Ee6XVaXlNWgZlA" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_a3NHkHb7Ee6XVaXlNWgZlA"/>
+      </stereotypes>
+      <visibility xmi:id="_a6KU8nb7Ee6XVaXlNWgZlA" label="~"/>
+      <cardinality xmi:id="_a6KU83b7Ee6XVaXlNWgZlA" label="1" max="1" min="1"/>
+      <type xmi:id="_a6KU9Hb7Ee6XVaXlNWgZlA" name="Color">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_vxwOc3AiEe66x4TCR_-66Q" name="main" staticOperation="true">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tYcNsHAiEe66x4TCR_-66Q"/>
+      <visibility xmi:id="_vxwOdHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vxwOdXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_vxwOdnAiEe66x4TCR_-66Q" name="args">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tYc0wHAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vxwOd3AiEe66x4TCR_-66Q" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_vxwOeHAiEe66x4TCR_-66Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_v2FU0HAiEe66x4TCR_-66Q" name="SensePeca" generalizations="_v2BDYHAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tZldMHAiEe66x4TCR_-66Q"/>
+    <visualProperties xmi:id="_v2FU0XAiEe66x4TCR_-66Q" position="822.0,243.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_v2FU0nAiEe66x4TCR_-66Q" label="+"/>
+    <operations xmi:id="_v2FU03AiEe66x4TCR_-66Q" name="toString">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tZmrUHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_v2FU1HAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZnSYHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_v2FU1XAiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZnSYXAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_v2FU1nAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v2FU13AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v2FU2HAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZmrUXAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v2FU2XAiEe66x4TCR_-66Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_v2FU2nAiEe66x4TCR_-66Q" name="SensePeca">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbFSAHAiEe66x4TCR_-66Q"/>
+      <keywords xmi:id="_v2FU23AiEe66x4TCR_-66Q" keyword="create"/>
+      <visibility xmi:id="_v2FU3HAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_v2FU3XAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_v2FU3nAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbF5EnAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_v2FU33AiEe66x4TCR_-66Q" name="SensePeca">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tZldMHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v2FU4HAiEe66x4TCR_-66Q" name="c">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tbFSAXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_v2FU4XAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_v2FU4nAiEe66x4TCR_-66Q" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vzhwEHAiEe66x4TCR_-66Q" name="AmbPeca" associationsIn="_vzdeoHAiEe66x4TCR_-66Q" generalizations="_vzeswnAiEe66x4TCR_-66Q">
+    <modelElement href="M03%20UF4%20Examen%202023.uml#_tY0BIHAiEe66x4TCR_-66Q"/>
+    <visualProperties xmi:id="_vzhwEXAiEe66x4TCR_-66Q" position="1202.0,252.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_vzhwEnAiEe66x4TCR_-66Q" label="+"/>
+    <attributes xmi:id="_vzhwE3AiEe66x4TCR_-66Q" name="peca">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tbOb8HAiEe66x4TCR_-66Q"/>
+      <visibility xmi:id="_vzhwFHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vzhwFXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <type xmi:id="_vziXIHAiEe66x4TCR_-66Q" name="Peca">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tZdhYHAiEe66x4TCR_-66Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_vziXIXAiEe66x4TCR_-66Q" name="toString">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tY12UHAiEe66x4TCR_-66Q"/>
+      <stereotypes xmi:id="_vziXInAiEe66x4TCR_-66Q" name="LegacyStyledElement">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tY2dYHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vziXI3AiEe66x4TCR_-66Q" name="Annotations">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tY3EcHAiEe66x4TCR_-66Q"/>
+      </stereotypes>
+      <visibility xmi:id="_vziXJHAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vziXJXAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vziXJnAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tY12UXAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vziXJ3AiEe66x4TCR_-66Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vziXKHAiEe66x4TCR_-66Q" name="AmbPeca">
+      <modelElement href="M03%20UF4%20Examen%202023.uml#_tapNIHAiEe66x4TCR_-66Q"/>
+      <keywords xmi:id="_vziXKXAiEe66x4TCR_-66Q" keyword="create"/>
+      <visibility xmi:id="_vziXKnAiEe66x4TCR_-66Q" label="+"/>
+      <cardinality xmi:id="_vziXK3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vziXLHAiEe66x4TCR_-66Q">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tap0MXAiEe66x4TCR_-66Q"/>
+        <type xmi:id="_vziXLXAiEe66x4TCR_-66Q" name="AmbPeca">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tY0BIHAiEe66x4TCR_-66Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vziXLnAiEe66x4TCR_-66Q" name="p">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tapNIXAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vziXL3AiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vziXMHAiEe66x4TCR_-66Q" name="Peca">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tZdhYHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vziXMXAiEe66x4TCR_-66Q" name="c">
+        <modelElement href="M03%20UF4%20Examen%202023.uml#_tapNInAiEe66x4TCR_-66Q"/>
+        <cardinality xmi:id="_vziXMnAiEe66x4TCR_-66Q" label="1" max="1" min="1"/>
+        <type xmi:id="_vziXM3AiEe66x4TCR_-66Q" name="Color">
+          <modelElement href="M03%20UF4%20Examen%202023.uml#_tYWHEHAiEe66x4TCR_-66Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
